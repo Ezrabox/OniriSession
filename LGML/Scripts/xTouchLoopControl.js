@@ -254,12 +254,17 @@ function ccEvent(channel, number, value) {
 			looperIndex = tIndex;
 			setup();
 		}
-	}
-	else if (value > 0) { //Rangée du bas en momentary, on vérifie que le press
-		if (number == 11) {
+	}else if (number == 11) {
+		if(value == 0)
+		{
 			globalQuantiz = !globalQuantiz;
 			looper.recording.quantization.set(globalQuantiz > 0 ? "Default" : "Free");
-		} else if (number >= 3 && number <= 3 + trackCount) { //Rangée bas
+		}
+		local.sendCC(10, 11, globalQuantiz ? 127 : 0);
+
+	}
+	else if (value > 0) { //Rangée du bas en momentary, on vérifie que le press
+		  if (number >= 3 && number <= 3 + trackCount) { //Rangée bas
 			var id = number - 2;
 			var track = looper.tracks[id];
 			trackState[id].state = value;
