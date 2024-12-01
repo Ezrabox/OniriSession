@@ -170,6 +170,9 @@ function sendGain(id, gain) {
 function handleLongPress(id) {
 	if (id == 2) {
 		looper.controls.clearAll.trigger();
+	}else if(id >= 3 && id < 3 + NUM_TRACKS)
+	{
+		looper.tracks[""+(id-2)].clear.trigger();
 	}
 }
 
@@ -224,8 +227,21 @@ function ccEvent(channel, number, value) {
 
 		sendActive(id, trackState[id].active);
 	} else if (number == 12) { //Bouton Out Active
-		globalActive = value > 0;
-		looper.out.active.set(globalActive);
+		var targetVal = -1;
+		if (muteToggleMode.get()) {
+			if (value > 0) targetVal = !globalActive;
+		} else {
+			targetVal = momentaryDefaultVal.get();
+			if (value > 0) targetVal = !targetVal;
+		}
+
+
+		if (targetVal != -1) {
+			looper.out.active.set(targetVal);
+		}
+		local.sendCC(10, 12, globalActive ? 127 : 0);
+
+
 	}
 	else if (number == 22) { //Bouton Out Active
 		globalVolume = value / FADER_MAX;
