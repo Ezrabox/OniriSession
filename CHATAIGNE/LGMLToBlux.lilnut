@@ -1,0 +1,1731 @@
+{
+  "modules": null,
+  "customVariables": [
+    {
+      "niceName": "Blux Animations",
+      "type": "CVGroup",
+      "params": {
+        "editorIsCollapsed": true
+      },
+      "variables": {
+        "items": [
+          {
+            "parameters": [
+              {
+                "minValue": 0,
+                "maxValue": 1,
+                "default": false,
+                "controlAddress": "/randomMode",
+                "feedbackOnly": false,
+                "type": "Boolean",
+                "niceName": "Random Mode",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Boolean",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Random Mode",
+            "editorIsCollapsed": true,
+            "type": "Bool Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 7,
+                "minValue": 1.0,
+                "maxValue": 7.0,
+                "default": 0,
+                "hexMode": false,
+                "controlAddress": "/cercleIndex",
+                "feedbackOnly": false,
+                "type": "Integer",
+                "niceName": "Cercle Index",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Integer",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Cercle Index",
+            "editorIsCollapsed": true,
+            "type": "Int Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.2755905389785767,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/velocity",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Velocity",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Velocity",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.47843137383461,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/intensityMultiplier",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Intensity Multiplier",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Intensity Multiplier",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.8851073384284973,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/smoothUp",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Smooth Up",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Smooth Up",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.2409909963607788,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/smoothDown",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Smooth Down",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Smooth Down",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.0,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/xPos",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "X Pos",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "X Pos",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.0,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/phareBassIntensity",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Phare Bass Intensity",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Phare Bass Intensity",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      },
+      "presets": {
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      }
+    }
+  ],
+  "states": [
+    {
+      "parameters": [
+        {
+          "value": [
+            -242.0,
+            -150.0
+          ],
+          "controlAddress": "/viewUIPosition"
+        },
+        {
+          "value": [
+            488.0,
+            421.0
+          ],
+          "controlAddress": "/viewUISize"
+        },
+        {
+          "value": true,
+          "controlAddress": "/active"
+        }
+      ],
+      "niceName": "LGML to CV",
+      "type": "State",
+      "processors": {
+        "items": [
+          {
+            "niceName": "LGML Preset to Blux Scene",
+            "editorIsCollapsed": true,
+            "type": "Mapping",
+            "im": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/lgml/values/presets/currentPreset",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "Input Value",
+                  "type": "Input Value"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "params": {
+              "parameters": [
+                {
+                  "value": 50,
+                  "hexMode": false,
+                  "controlAddress": "/updateRate"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "filters": {
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "outputs": {
+              "items": [
+                {
+                  "niceName": "MappingOutput",
+                  "type": "BaseItem",
+                  "commandModule": "blux",
+                  "commandPath": "",
+                  "commandType": "Custom Message",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/scenes/loadScene",
+                        "controlAddress": "/address"
+                      }
+                    ],
+                    "paramLinks": {
+                    },
+                    "argManager": {
+                      "items": [
+                        {
+                          "parameters": [
+                            {
+                              "value": "example",
+                              "controlAddress": "/#1"
+                            }
+                          ],
+                          "niceName": "#1",
+                          "type": "String",
+                          "param": {
+                            "value": "example",
+                            "controlAddress": "/states/lgmlToCV/processors/lgmlPresetToBluxScene/outputs/mappingOutput/command/arguments/#1/#1"
+                          },
+                          "paramLink": {
+                            "linkType": 1,
+                            "mappingValueIndex": 0
+                          }
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  0.3254902064800262,
+                  0.6039215922355652,
+                  0.4431372582912445,
+                  1.0
+                ],
+                "controlAddress": "/color"
+              }
+            ],
+            "niceName": "Keystep Play to CV Index Increment",
+            "editorIsCollapsed": true,
+            "type": "Action",
+            "conditions": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/keystep/values/infos/oneNoteOn",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "From Input Value",
+                  "type": "From Input Value",
+                  "comparator": {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/reference"
+                      }
+                    ],
+                    "hideInEditor": true
+                  }
+                },
+                {
+                  "parameters": [
+                    {
+                      "value": "/customVariables/customVariables/values/bluxAnimations/randomMode",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "From Input Value 1",
+                  "type": "From Input Value",
+                  "comparator": {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlAddress": "/reference"
+                      }
+                    ],
+                    "hideInEditor": true
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "consequences": {
+              "items": [
+                {
+                  "niceName": "Consequence",
+                  "type": "Consequence",
+                  "commandModule": "customVariables",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/bluxAnimations/cercleIndex",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Add",
+                        "controlAddress": "/operator"
+                      },
+                      {
+                        "value": true,
+                        "controlAddress": "/loop"
+                      },
+                      {
+                        "value": 1,
+                        "hexMode": false,
+                        "controlAddress": "/value"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "consequencesOff": {
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  0.3764705955982208,
+                  0.6470588445663452,
+                  0.5176470875740051,
+                  1.0
+                ],
+                "controlAddress": "/color"
+              }
+            ],
+            "niceName": "Keystep Play to CV Index Random",
+            "editorIsCollapsed": true,
+            "type": "Action",
+            "conditions": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/keystep/values/infos/oneNoteOn",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "From Input Value",
+                  "type": "From Input Value",
+                  "comparator": {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/reference"
+                      }
+                    ],
+                    "hideInEditor": true
+                  }
+                },
+                {
+                  "parameters": [
+                    {
+                      "value": "/customVariables/customVariables/values/bluxAnimations/randomMode",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "From Input Value 1",
+                  "type": "From Input Value",
+                  "comparator": {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/reference"
+                      }
+                    ],
+                    "hideInEditor": true
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "consequences": {
+              "items": [
+                {
+                  "niceName": "Consequence",
+                  "type": "Consequence",
+                  "commandModule": "customVariables",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/bluxAnimations/cercleIndex",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Random",
+                        "controlAddress": "/operator"
+                      },
+                      {
+                        "value": true,
+                        "controlAddress": "/loop"
+                      },
+                      {
+                        "value": 1,
+                        "hexMode": false,
+                        "controlAddress": "/value"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "consequencesOff": {
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  0.2352941185235977,
+                  0.5137255191802979,
+                  0.3294117748737335,
+                  1.0
+                ],
+                "controlAddress": "/color"
+              }
+            ],
+            "niceName": "Keystep Velocity CV Remap",
+            "editorIsCollapsed": true,
+            "type": "Mapping",
+            "im": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/keystep/values/infos/lastVelocity",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "Input Value",
+                  "type": "Input Value"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "params": {
+              "parameters": [
+                {
+                  "value": 50,
+                  "hexMode": false,
+                  "controlAddress": "/updateRate"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "filters": {
+              "items": [
+                {
+                  "niceName": "Remap",
+                  "type": "Remap",
+                  "filterParams": {
+                    "parameters": [
+                      {
+                        "value": [
+                          0.0,
+                          1.0
+                        ],
+                        "controlAddress": "/inputMin_Max"
+                      },
+                      {
+                        "value": [
+                          0.0,
+                          1.0
+                        ],
+                        "controlAddress": "/targetMin_Max"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "outputs": {
+              "items": [
+                {
+                  "niceName": "MappingOutput",
+                  "type": "BaseItem",
+                  "commandModule": "customVariables",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/bluxAnimations/velocity",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Equals",
+                        "controlAddress": "/operator"
+                      }
+                    ],
+                    "paramLinks": {
+                      "value": {
+                        "linkType": 1,
+                        "mappingValueIndex": 0
+                      }
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  0.196078434586525,
+                  0.4862745106220245,
+                  0.2588235437870026,
+                  1.0
+                ],
+                "controlAddress": "/color"
+              }
+            ],
+            "niceName": "Sampler attack to CV smooth up",
+            "editorIsCollapsed": true,
+            "type": "Mapping",
+            "im": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/lgml/values/nodes/melotron/adsr/attack",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "Input Value",
+                  "type": "Input Value"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "params": {
+              "parameters": [
+                {
+                  "value": 50,
+                  "hexMode": false,
+                  "controlAddress": "/updateRate"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "filters": {
+              "items": [
+                {
+                  "niceName": "Remap",
+                  "type": "Remap",
+                  "filterParams": {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/useCustomInputRange"
+                      },
+                      {
+                        "value": [
+                          0.0,
+                          10.0
+                        ],
+                        "controlAddress": "/inputMin_Max"
+                      },
+                      {
+                        "value": [
+                          0.4000000059604645,
+                          0.9900000095367432
+                        ],
+                        "controlAddress": "/targetMin_Max"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "outputs": {
+              "items": [
+                {
+                  "niceName": "MappingOutput",
+                  "type": "BaseItem",
+                  "commandModule": "customVariables",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/bluxAnimations/smoothUp",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Equals",
+                        "controlAddress": "/operator"
+                      }
+                    ],
+                    "paramLinks": {
+                      "value": {
+                        "linkType": 1,
+                        "mappingValueIndex": 0
+                      }
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  0.1921568661928177,
+                  0.501960813999176,
+                  0.2901960909366608,
+                  1.0
+                ],
+                "controlAddress": "/color"
+              }
+            ],
+            "niceName": "Sampler attack to CV smooth down",
+            "editorIsCollapsed": true,
+            "type": "Mapping",
+            "im": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/lgml/values/nodes/melotron/adsr/release",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "Input Value",
+                  "type": "Input Value"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "params": {
+              "parameters": [
+                {
+                  "value": 50,
+                  "hexMode": false,
+                  "controlAddress": "/updateRate"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "filters": {
+              "items": [
+                {
+                  "niceName": "Remap",
+                  "type": "Remap",
+                  "filterParams": {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/useCustomInputRange"
+                      },
+                      {
+                        "value": [
+                          0.0,
+                          10.0
+                        ],
+                        "controlAddress": "/inputMin_Max"
+                      },
+                      {
+                        "value": [
+                          0.4000000059604645,
+                          0.9029999971389771
+                        ],
+                        "controlAddress": "/targetMin_Max"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "outputs": {
+              "items": [
+                {
+                  "niceName": "MappingOutput",
+                  "type": "BaseItem",
+                  "commandModule": "customVariables",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/bluxAnimations/smoothUp",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Equals",
+                        "controlAddress": "/operator"
+                      }
+                    ],
+                    "paramLinks": {
+                      "value": {
+                        "linkType": 1,
+                        "mappingValueIndex": 0
+                      }
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  0.2000000029802322,
+                  0.4862745106220245,
+                  0.1411764770746231,
+                  1.0
+                ],
+                "controlAddress": "/color"
+              }
+            ],
+            "niceName": "Filtre to CV Intensity Mult",
+            "editorIsCollapsed": true,
+            "type": "Mapping",
+            "im": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/lgml/values/nodes/loopfx/nodes/fx12/macros/macro1",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "Input Value",
+                  "type": "Input Value"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "params": {
+              "parameters": [
+                {
+                  "value": 50,
+                  "hexMode": false,
+                  "controlAddress": "/updateRate"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "filters": {
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "outputs": {
+              "items": [
+                {
+                  "niceName": "MappingOutput",
+                  "type": "BaseItem",
+                  "commandModule": "customVariables",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/bluxAnimations/intensityMultiplier",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Equals",
+                        "controlAddress": "/operator"
+                      }
+                    ],
+                    "paramLinks": {
+                      "value": {
+                        "linkType": 1,
+                        "mappingValueIndex": 0
+                      }
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  0.2980392277240753,
+                  0.3411764800548553,
+                  0.4862745106220245,
+                  1.0
+                ],
+                "controlAddress": "/color"
+              }
+            ],
+            "niceName": "RMS Micro to CV Phare Intensity",
+            "editorIsCollapsed": true,
+            "type": "Mapping",
+            "im": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/modules/lgml/values/nodes/in/channels/1/rms",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "Input Value",
+                  "type": "Input Value"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "params": {
+              "parameters": [
+                {
+                  "value": 50,
+                  "hexMode": false,
+                  "controlAddress": "/updateRate"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "filters": {
+              "items": [
+                {
+                  "niceName": "Remap",
+                  "type": "Remap",
+                  "filterParams": {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/useCustomInputRange"
+                      },
+                      {
+                        "value": [
+                          0.1000000014901161,
+                          0.6000000238418579
+                        ],
+                        "controlAddress": "/inputMin_Max"
+                      },
+                      {
+                        "value": [
+                          0.0,
+                          1.0
+                        ],
+                        "controlAddress": "/targetMin_Max"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "outputs": {
+              "items": [
+                {
+                  "niceName": "MappingOutput",
+                  "type": "BaseItem",
+                  "commandModule": "customVariables",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/bluxAnimations/phareBassIntensity",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Equals",
+                        "controlAddress": "/operator"
+                      }
+                    ],
+                    "paramLinks": {
+                      "value": {
+                        "linkType": 1,
+                        "mappingValueIndex": 0
+                      }
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          },
+          {
+            "parameters": [
+              {
+                "value": 110.0,
+                "controlAddress": "/listSize"
+              },
+              {
+                "value": 7,
+                "hexMode": false,
+                "controlAddress": "/count"
+              }
+            ],
+            "niceName": "Cercle",
+            "editorIsCollapsed": true,
+            "containers": {
+              "lists": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/blux/values/objects/a1/customParameters/noteIntensity",
+                        "controlAddress": "/#1"
+                      },
+                      {
+                        "value": "/modules/blux/values/objects/a2/customParameters/noteIntensity",
+                        "controlAddress": "/#2"
+                      },
+                      {
+                        "value": "/modules/blux/values/objects/a3/customParameters/noteIntensity",
+                        "controlAddress": "/#3"
+                      },
+                      {
+                        "value": "/modules/blux/values/objects/a4/customParameters/noteIntensity",
+                        "controlAddress": "/#4"
+                      },
+                      {
+                        "value": "/modules/blux/values/objects/a5/customParameters/noteIntensity",
+                        "controlAddress": "/#5"
+                      },
+                      {
+                        "value": "/modules/blux/values/objects/a6/customParameters/noteIntensity",
+                        "controlAddress": "/#6"
+                      },
+                      {
+                        "value": "/modules/blux/values/objects/a7/customParameters/noteIntensity",
+                        "controlAddress": "/#7"
+                      }
+                    ],
+                    "niceName": "Note Intensity",
+                    "type": "Input Values",
+                    "listSize": 7
+                  },
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "default": 0.0,
+                        "controlAddress": "/#1"
+                      },
+                      {
+                        "value": 0.0,
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "default": 0.0,
+                        "controlAddress": "/#2"
+                      },
+                      {
+                        "value": 0.0,
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "default": 0.0,
+                        "controlAddress": "/#3"
+                      },
+                      {
+                        "value": 0.0,
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "default": 0.0,
+                        "controlAddress": "/#4"
+                      },
+                      {
+                        "value": 0.0,
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "default": 0.0,
+                        "controlAddress": "/#5"
+                      },
+                      {
+                        "value": 0.0,
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "default": 0.0,
+                        "controlAddress": "/#6"
+                      },
+                      {
+                        "value": 0.0,
+                        "minValue": 0,
+                        "maxValue": 1,
+                        "default": 0.0,
+                        "controlAddress": "/#7"
+                      }
+                    ],
+                    "niceName": "Intensity Internal",
+                    "type": "Float",
+                    "listSize": 7
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "processors": {
+                "hideInEditor": true,
+                "items": [
+                  {
+                    "niceName": "Intensity List Set",
+                    "editorIsCollapsed": true,
+                    "type": "Action",
+                    "conditions": {
+                      "items": [
+                        {
+                          "parameters": [
+                            {
+                              "value": "/customVariables/customVariables/values/bluxAnimations/cercleIndex",
+                              "controlAddress": "/inputValue"
+                            }
+                          ],
+                          "niceName": "From Input Value",
+                          "type": "From Input Value",
+                          "comparator": {
+                            "hideInEditor": true,
+                            "refLink": {
+                              "linkType": 3
+                            }
+                          }
+                        },
+                        {
+                          "parameters": [
+                            {
+                              "value": "/modules/keystep/values/infos/oneNoteOn",
+                              "controlAddress": "/inputValue"
+                            }
+                          ],
+                          "niceName": "From Input Value 1",
+                          "type": "From Input Value",
+                          "comparator": {
+                            "parameters": [
+                              {
+                                "value": true,
+                                "controlAddress": "/reference"
+                              }
+                            ],
+                            "hideInEditor": true,
+                            "refLink": {
+                              "linkType": 0
+                            }
+                          }
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    },
+                    "consequences": {
+                      "items": [
+                        {
+                          "niceName": "Consequence",
+                          "type": "Consequence",
+                          "commandModule": "multiplex",
+                          "commandPath": "",
+                          "commandType": "Set List Value",
+                          "command": {
+                            "parameters": [
+                              {
+                                "value": "/states/lgmlToCV/processors/cercle/lists/intensityInternal",
+                                "controlAddress": "/target"
+                              },
+                              {
+                                "value": "All",
+                                "controlAddress": "/component"
+                              },
+                              {
+                                "value": "Equals",
+                                "controlAddress": "/operator"
+                              },
+                              {
+                                "value": 0.2755905389785767,
+                                "controlMode": 2,
+                                "reference": {
+                                  "value": "/customVariables/customVariables/values/bluxAnimations/velocity",
+                                  "controlAddress": "/reference"
+                                },
+                                "controlAddress": "/value"
+                              }
+                            ],
+                            "paramLinks": {
+                            }
+                          }
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    },
+                    "consequencesOff": {
+                      "items": [
+                        {
+                          "niceName": "Consequence 1",
+                          "type": "Consequence",
+                          "commandModule": "multiplex",
+                          "commandPath": "",
+                          "commandType": "Set List Value",
+                          "command": {
+                            "parameters": [
+                              {
+                                "value": "/states/lgmlToCV/processors/cercle/lists/intensityInternal",
+                                "controlAddress": "/target"
+                              },
+                              {
+                                "value": "All",
+                                "controlAddress": "/component"
+                              },
+                              {
+                                "value": "Equals",
+                                "controlAddress": "/operator"
+                              }
+                            ],
+                            "paramLinks": {
+                            }
+                          }
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    }
+                  },
+                  {
+                    "niceName": "Intensity to Blux",
+                    "editorIsCollapsed": true,
+                    "type": "Mapping",
+                    "im": {
+                      "items": [
+                        {
+                          "parameters": [
+                            {
+                              "value": "/intensityInternal",
+                              "controlAddress": "/inputList"
+                            }
+                          ],
+                          "niceName": "Input List",
+                          "type": "Input List"
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    },
+                    "params": {
+                      "parameters": [
+                        {
+                          "value": 50,
+                          "hexMode": false,
+                          "controlAddress": "/updateRate"
+                        }
+                      ],
+                      "editorIsCollapsed": true
+                    },
+                    "filters": {
+                      "items": [
+                        {
+                          "niceName": "Smooth",
+                          "type": "Smooth",
+                          "filterParams": {
+                            "parameters": [
+                              {
+                                "value": true,
+                                "controlAddress": "/asynchronous"
+                              },
+                              {
+                                "value": 0.8851073384284973,
+                                "controlMode": 2,
+                                "reference": {
+                                  "value": "/customVariables/customVariables/values/bluxAnimations/smoothUp",
+                                  "controlAddress": "/reference"
+                                },
+                                "controlAddress": "/smoothing"
+                              },
+                              {
+                                "value": 0.2409909963607788,
+                                "controlMode": 2,
+                                "reference": {
+                                  "value": "/customVariables/customVariables/values/bluxAnimations/smoothDown",
+                                  "controlAddress": "/reference"
+                                },
+                                "controlAddress": "/fallSmoothing"
+                              }
+                            ],
+                            "paramLinks": {
+                            }
+                          }
+                        },
+                        {
+                          "niceName": "Math",
+                          "type": "Math",
+                          "filterParams": {
+                            "parameters": [
+                              {
+                                "value": "Multiply",
+                                "controlAddress": "/operation"
+                              },
+                              {
+                                "value": 0.47843137383461,
+                                "controlMode": 2,
+                                "reference": {
+                                  "value": "/customVariables/customVariables/values/bluxAnimations/intensityMultiplier",
+                                  "controlAddress": "/reference"
+                                },
+                                "controlAddress": "/value"
+                              }
+                            ],
+                            "paramLinks": {
+                            }
+                          },
+                          "operationValue": {
+                            "value": 0.47843137383461,
+                            "controlMode": 2,
+                            "reference": {
+                              "value": "/customVariables/customVariables/values/bluxAnimations/intensityMultiplier",
+                              "controlAddress": "/reference"
+                            },
+                            "controlAddress": "/states/lgmlToCV/processors/cercle/processors/intensityToBlux/filters/math/filterParams/value"
+                          }
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    },
+                    "outputs": {
+                      "items": [
+                        {
+                          "niceName": "MappingOutput",
+                          "type": "BaseItem",
+                          "commandModule": "blux",
+                          "commandPath": "",
+                          "commandType": "Set Value",
+                          "command": {
+                            "parameters": [
+                              {
+                                "value": "All",
+                                "controlAddress": "/component"
+                              },
+                              {
+                                "value": "Equals",
+                                "controlAddress": "/operator"
+                              }
+                            ],
+                            "paramLinks": {
+                              "target": {
+                                "linkType": 2,
+                                "list": "noteIntensity"
+                              },
+                              "value": {
+                                "linkType": 1,
+                                "mappingValueIndex": 0
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            "type": "Multiplex"
+          },
+          {
+            "niceName": "Phare Bass Intensity",
+            "editorIsCollapsed": true,
+            "type": "Mapping",
+            "im": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": "/customVariables/customVariables/values/bluxAnimations/phareBassIntensity",
+                      "controlAddress": "/inputValue"
+                    }
+                  ],
+                  "niceName": "Input Value",
+                  "type": "Input Value"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "params": {
+              "parameters": [
+                {
+                  "value": 50,
+                  "hexMode": false,
+                  "controlAddress": "/updateRate"
+                }
+              ],
+              "editorIsCollapsed": true
+            },
+            "filters": {
+              "items": [
+                {
+                  "niceName": "Curve Map",
+                  "type": "Curve Map",
+                  "filterParams": {
+                    "parameters": [
+                      {
+                        "value": [
+                          0.0,
+                          1.0
+                        ],
+                        "controlAddress": "/inputMin_Max"
+                      },
+                      {
+                        "value": [
+                          0.0,
+                          0.5
+                        ],
+                        "controlAddress": "/targetMin_Max"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  },
+                  "curve": {
+                    "parameters": [
+                      {
+                        "value": 1.0,
+                        "controlAddress": "/length"
+                      },
+                      {
+                        "value": [
+                          0.0,
+                          1.0
+                        ],
+                        "controlAddress": "/viewValueRange"
+                      },
+                      {
+                        "value": [
+                          0.0,
+                          1.0
+                        ],
+                        "controlAddress": "/range",
+                        "enabled": true
+                      }
+                    ],
+                    "hideInRemoteControl": false,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "Bezier",
+                            "controlAddress": "/easingType"
+                          }
+                        ],
+                        "niceName": "Key",
+                        "containers": {
+                          "easing": {
+                            "parameters": [
+                              {
+                                "value": [
+                                  0.3149931132793427,
+                                  0.0
+                                ],
+                                "controlAddress": "/anchor1"
+                              },
+                              {
+                                "value": [
+                                  -0.3149931132793427,
+                                  0.0
+                                ],
+                                "controlAddress": "/anchor2"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "Key"
+                      },
+                      {
+                        "parameters": [
+                          {
+                            "value": 1.0,
+                            "controlAddress": "/position"
+                          },
+                          {
+                            "value": 1.0,
+                            "controlAddress": "/value"
+                          },
+                          {
+                            "value": "Bezier",
+                            "controlAddress": "/easingType"
+                          }
+                        ],
+                        "niceName": "Key 1",
+                        "containers": {
+                          "easing": {
+                          }
+                        },
+                        "type": "Key"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                },
+                {
+                  "niceName": "Smooth",
+                  "type": "Smooth",
+                  "filterParams": {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/asynchronous"
+                      },
+                      {
+                        "value": 0.5474452376365662,
+                        "controlAddress": "/smoothing"
+                      },
+                      {
+                        "value": 0.8474452495574951,
+                        "controlAddress": "/fallSmoothing"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "outputs": {
+              "items": [
+                {
+                  "niceName": "MappingOutput",
+                  "type": "BaseItem",
+                  "commandModule": "blux",
+                  "commandPath": "",
+                  "commandType": "Set Value",
+                  "command": {
+                    "parameters": [
+                      {
+                        "value": "/objects/customParameters/intensitBasseMicro/intensitBasseMicro",
+                        "controlAddress": "/target"
+                      },
+                      {
+                        "value": "All",
+                        "controlAddress": "/component"
+                      },
+                      {
+                        "value": "Equals",
+                        "controlAddress": "/operator"
+                      }
+                    ],
+                    "paramLinks": {
+                      "value": {
+                        "linkType": 1,
+                        "mappingValueIndex": 0
+                      }
+                    }
+                  }
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            }
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      }
+    }
+  ],
+  "sequences": null,
+  "routers": null
+}

@@ -1,0 +1,300 @@
+{
+  "modules": null,
+  "customVariables": [
+    {
+      "niceName": "Blux Animations",
+      "type": "CVGroup",
+      "params": {
+        "editorIsCollapsed": true
+      },
+      "variables": {
+        "items": [
+          {
+            "parameters": [
+              {
+                "minValue": 0,
+                "maxValue": 1,
+                "default": false,
+                "controlAddress": "/randomMode",
+                "feedbackOnly": false,
+                "type": "Boolean",
+                "niceName": "Random Mode",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Boolean",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Random Mode",
+            "editorIsCollapsed": true,
+            "type": "Bool Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 4,
+                "minValue": 1.0,
+                "maxValue": 7.0,
+                "default": 0,
+                "hexMode": false,
+                "controlAddress": "/cercleIndex",
+                "feedbackOnly": false,
+                "type": "Integer",
+                "niceName": "Cercle Index",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Integer",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Cercle Index",
+            "editorIsCollapsed": true,
+            "type": "Int Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.2992126047611237,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/velocity",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Velocity",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Velocity",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 1.0,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/intensityMultiplier",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Intensity Multiplier",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Intensity Multiplier",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.9029999971389771,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/smoothUp",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Smooth Up",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Smooth Up",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.2409909963607788,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/smoothDown",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Smooth Down",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Smooth Down",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.0,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/xPos",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "X Pos",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "X Pos",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.0,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/phareBassIntensity",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Phare Bass Intensity",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Phare Bass Intensity",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.0,
+                "minValue": -1,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/rmsInvMicroVincent",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "RMS inv Micro Vincent",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "RMS inv Micro Vincent",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "controlAddress": "/intensityMultiplierInv",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Intensity Multiplier Inv",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Intensity Multiplier Inv",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.8527867197990417,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/masterVolume",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Master Volume",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Master Volume",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.6674541234970093,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/melotronVolume",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "Melotron Volume",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "Melotron Volume",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          },
+          {
+            "parameters": [
+              {
+                "value": 0.0,
+                "minValue": 0,
+                "maxValue": 1,
+                "default": 0.0,
+                "controlAddress": "/fx22ARP",
+                "feedbackOnly": false,
+                "type": "Float",
+                "niceName": "FX 2.2 ARP",
+                "customizable": true,
+                "removable": false,
+                "description": "Custom control of type Float",
+                "hideInEditor": false
+              }
+            ],
+            "niceName": "FX 2.2 ARP",
+            "editorIsCollapsed": true,
+            "type": "Float Parameter"
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      },
+      "presets": {
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      }
+    }
+  ],
+  "states": null,
+  "sequences": null,
+  "routers": null
+}
