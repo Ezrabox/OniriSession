@@ -9383,7 +9383,8 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "* HURLEY": "HURLEY",
+                          "* h init": "H INIT",
+                          "* h piano": "H PIANO",
                           "* acc br": "D ACC BR",
                           "* d ouh 1": "D OUH 1",
                           "d ouh 2": "D OUH 2",
@@ -9769,8 +9770,7 @@
                           "o beat": "O BEAT",
                           "o beat x": "O BEAT END",
                           "o bass end": "O BASS END",
-                          "* o end": "O END",
-                          "o fade": "O FADE OUT"
+                          "* o fade": "O FADE OUT"
                         },
                         "mode": "tap",
                         "wrap": false
@@ -21557,7 +21557,8 @@
               "I bass back": "I BASSE BACK",
               "I beat mute": "I BEAT MUTE",
               "i end": "I END",
-              "salut": "SALUT"
+              "salut": "SALUT",
+              "* h piano": "H PIANO"
             },
             "mode": "tap",
             "wrap": false
