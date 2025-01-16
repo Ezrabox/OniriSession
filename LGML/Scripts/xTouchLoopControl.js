@@ -39,7 +39,7 @@ var STOPPED = 7;
 var WILL_PLAY = 8;
 
 function init() {
-	script.setUpdateRate(20);
+	script.setUpdateRate(10); //20 par default
 
 
 	setup();
