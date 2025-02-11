@@ -9195,9 +9195,6 @@
                           "m bass": "M BASS",
                           "m beat": "M BEAT",
                           "m ouh 2 * ": "M OUH 2",
-                          "m beat M": "M BEAT MUTE",
-                          "m todo fad": "M TODO FADE",
-                          "m l1 fad": "M L1 FADE",
                           "m l2 fad": "M L2 FADE",
                           "m ^trash": "M CLEAR ALL"
                         },
