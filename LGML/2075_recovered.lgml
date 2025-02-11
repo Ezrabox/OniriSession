@@ -1,0 +1,3550 @@
+{
+  "parameters": [
+    {
+      "controlAddress": "/audioCPUUsage",
+      "hideInRemoteControl": true
+    }
+  ],
+  "metaData": {
+    "version": "1.1.0b1",
+    "versionNumber": 65792
+  },
+  "projectSettings": {
+    "containers": {
+      "dashboardSettings": {
+        "parameters": [
+          {
+            "value": "",
+            "controlAddress": "/showDashboardOnStartup",
+            "enabled": false
+          },
+          {
+            "value": true,
+            "controlAddress": "/enableDashboardServer"
+          },
+          {
+            "value": 9997,
+            "hexMode": false,
+            "controlAddress": "/serverPort"
+          }
+        ]
+      },
+      "customDefinitions": {
+      }
+    }
+  },
+  "dashboardManager": {
+    "parameters": [
+      {
+        "value": false,
+        "controlAddress": "/editMode"
+      }
+    ],
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "parrots": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "layout": {
+    "mainLayout": {
+      "type": 1,
+      "width": 1200,
+      "height": 892,
+      "direction": 2,
+      "shifters": [
+        {
+          "type": 1,
+          "width": 1200,
+          "height": 892,
+          "direction": 1,
+          "shifters": [
+            {
+              "type": 1,
+              "width": 257,
+              "height": 892,
+              "direction": 2,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 257,
+                  "height": 131,
+                  "currentContent": "Transport",
+                  "tabs": [
+                    {
+                      "name": "Transport"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 257,
+                  "height": 325,
+                  "currentContent": "Interfaces",
+                  "tabs": [
+                    {
+                      "name": "Interfaces"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 257,
+                  "height": 423,
+                  "currentContent": "Presets",
+                  "tabs": [
+                    {
+                      "name": "Presets"
+                    },
+                    {
+                      "name": "Mappings"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "width": 936,
+              "height": 892,
+              "direction": 1,
+              "shifters": [
+                {
+                  "type": 1,
+                  "width": 780,
+                  "height": 892,
+                  "direction": 2,
+                  "shifters": [
+                    {
+                      "type": 0,
+                      "width": 780,
+                      "height": 153,
+                      "currentContent": "Dashboard",
+                      "tabs": [
+                        {
+                          "name": "Dashboard"
+                        }
+                      ]
+                    },
+                    {
+                      "type": 0,
+                      "width": 780,
+                      "height": 732,
+                      "currentContent": "Nodes (2D View)",
+                      "tabs": [
+                        {
+                          "name": "Nodes (2D View)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": 1,
+                  "width": 150,
+                  "height": 892,
+                  "direction": 2,
+                  "shifters": [
+                    {
+                      "type": 0,
+                      "width": 150,
+                      "height": 718,
+                      "currentContent": "Inspector",
+                      "tabs": [
+                        {
+                          "name": "Inspector"
+                        }
+                      ]
+                    },
+                    {
+                      "type": 0,
+                      "width": 150,
+                      "height": 167,
+                      "currentContent": "Logger",
+                      "tabs": [
+                        {
+                          "name": "Logger"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "windows": null
+  },
+  "nodes": {
+    "parameters": [
+      {
+        "controlAddress": "/isNodePlaying",
+        "hideInRemoteControl": true
+      },
+      {
+        "value": false,
+        "controlAddress": "/snapGridMode"
+      },
+      {
+        "value": false,
+        "controlAddress": "/showSnapGrid"
+      }
+    ],
+    "viewOffset": [
+      473,
+      73
+    ],
+    "viewZoom": 1.0,
+    "looperControl": {
+      "parameters": [
+        {
+          "controlAddress": "/clearAllLoopers",
+          "customData": {
+            "presettable": true
+          }
+        },
+        {
+          "value": "l 2",
+          "controlAddress": "/currentLooper"
+        }
+      ]
+    },
+    "connections": {
+      "hideInEditor": true,
+      "viewOffset": [
+        0,
+        0
+      ],
+      "viewZoom": 1.0
+    },
+    "connectionPresets": {
+      "parameters": [
+        {
+          "value": "None",
+          "controlAddress": "/presets",
+          "customData": {
+            "presettable": true
+          }
+        },
+        {
+          "value": "",
+          "controlAddress": "/newPresetName"
+        }
+      ]
+    },
+    "customParameters": {
+    },
+    "connectionPresetData": {
+      "Giono": {
+        "hideInEditor": true,
+        "items": [
+          {
+            "niceName": "fxM2_REV > out",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM1_LPF9 > fxM2_REV",
+            "type": "BaseItem",
+            "sourceNode": "fxM1_LPF9",
+            "destNode": "fxM2_REV",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.4_BR3 2 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP34_BR32",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.3_STR2 2 > fxP3.4_BR3 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP33_STR22",
+            "destNode": "fxP34_BR32",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.2_HPF6 2 > fxP3.3_STR2 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP32_HPF62",
+            "destNode": "fxP33_STR22",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.1_LPF8 > fxP3.2_HPF6 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP31_LPF8",
+            "destNode": "fxP32_HPF62",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.3_STR23 > fxP2.4_BR3 1",
+            "type": "BaseItem",
+            "sourceNode": "fxP23_STR23",
+            "destNode": "fxP24_BR31",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.2_HPF7 > fxP2.3_STR23",
+            "type": "BaseItem",
+            "sourceNode": "fxP22_HPF7",
+            "destNode": "fxP23_STR23",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.1_LPF7 > fxP2.2_HPF7",
+            "type": "BaseItem",
+            "sourceNode": "fxP21_LPF7",
+            "destNode": "fxP22_HPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.1_LPF5 > fxP1.2_HPF6",
+            "type": "BaseItem",
+            "sourceNode": "fxP11_LPF5",
+            "destNode": "fxP12_HPF6",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.3_STR2 > fxP1.4_BR3",
+            "type": "BaseItem",
+            "sourceNode": "fxP13_STR2",
+            "destNode": "fxP14_BR3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.4_BR3 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP14_BR3",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.4_BR3 1 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP24_BR31",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.5_DEL1 > fx2.6_REV2",
+            "type": "BaseItem",
+            "sourceNode": "fx25_DEL1",
+            "destNode": "fx26_REV2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.6_REV2 > fx2.7_LPF3",
+            "type": "BaseItem",
+            "sourceNode": "fx26_REV2",
+            "destNode": "fx27_LPF3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.7_LPF3 > fx2.8_HPF4",
+            "type": "BaseItem",
+            "sourceNode": "fx27_LPF3",
+            "destNode": "fx28_HPF4",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.1_BR2 > fx2.2_SYT2",
+            "type": "BaseItem",
+            "sourceNode": "fx21_BR2",
+            "destNode": "fx22_SYT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.2_SYT2 > fx2.3_OCT2",
+            "type": "BaseItem",
+            "sourceNode": "fx22_SYT2",
+            "destNode": "fx23_OCT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.5_STR1 > fx1.6_REV1",
+            "type": "BaseItem",
+            "sourceNode": "fx15_STR1",
+            "destNode": "fx16_REV1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.6_REV1 > fx1.7_LPF1",
+            "type": "BaseItem",
+            "sourceNode": "fx16_REV1",
+            "destNode": "fx17_LPF1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.7_LPF1 > fx1.8_HPF2",
+            "type": "BaseItem",
+            "sourceNode": "fx17_LPF1",
+            "destNode": "fx18_HPF2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.3_OCT1 > fx1.4_RIN1",
+            "type": "BaseItem",
+            "sourceNode": "fx13_OCT1",
+            "destNode": "fx14_RIN1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.2_SYT1 > fx1.3_OCT1",
+            "type": "BaseItem",
+            "sourceNode": "fx12_SYT1",
+            "destNode": "fx13_OCT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.1_BR1 > fx1.2_SYT1",
+            "type": "BaseItem",
+            "sourceNode": "fx11_BR1",
+            "destNode": "fx12_SYT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.4_RIN2 > fx2.5_DEL1",
+            "type": "BaseItem",
+            "sourceNode": "fx24_RIN2",
+            "destNode": "fx25_DEL1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "niceName": "l 1 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l1",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 4 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l4",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 2 > fxP2.1_LPF7",
+            "type": "BaseItem",
+            "sourceNode": "l2",
+            "destNode": "fxP21_LPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 3 > fxP3.1_LPF8",
+            "type": "BaseItem",
+            "sourceNode": "l3",
+            "destNode": "fxP31_LPF8",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM2_REV > Recorder",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "recorder",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "in > fx1.1_BR1",
+            "type": "BaseItem",
+            "sourceNode": "in",
+            "destNode": "fx11_BR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.4_RIN1 > fx1.5_STR1",
+            "type": "BaseItem",
+            "sourceNode": "fx14_RIN1",
+            "destNode": "fx15_STR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "CLIC > out",
+            "type": "BaseItem",
+            "sourceNode": "clic",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 1",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 2",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l2",
+            "connectionType": 0,
+            "channels": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 3",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l3",
+            "connectionType": 0,
+            "channels": [
+              [
+                2,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                4,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.3_OCT2 > fx2.4_RIN2",
+            "type": "BaseItem",
+            "sourceNode": "fx23_OCT2",
+            "destNode": "fx24_RIN2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.2_HPF6 > fxP1.3_STR2",
+            "type": "BaseItem",
+            "sourceNode": "fxP12_HPF6",
+            "destNode": "fxP13_STR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Melotron > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "melotron",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Melotron",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "melotron",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.8_HPF4 > Mixer",
+            "type": "BaseItem",
+            "sourceNode": "fx28_HPF4",
+            "destNode": "mixer",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 4",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l4",
+            "connectionType": 0,
+            "channels": [
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "niceName": "EARS TRACKS > out",
+            "type": "BaseItem",
+            "sourceNode": "earsTRACKS",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      },
+      "Base": {
+        "hideInEditor": true,
+        "items": [
+          {
+            "niceName": "fxM2_REV > out",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM1_LPF9 > fxM2_REV",
+            "type": "BaseItem",
+            "sourceNode": "fxM1_LPF9",
+            "destNode": "fxM2_REV",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.4_BR3 2 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP34_BR32",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.3_STR2 2 > fxP3.4_BR3 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP33_STR22",
+            "destNode": "fxP34_BR32",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.2_HPF6 2 > fxP3.3_STR2 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP32_HPF62",
+            "destNode": "fxP33_STR22",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.1_LPF8 > fxP3.2_HPF6 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP31_LPF8",
+            "destNode": "fxP32_HPF62",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.3_STR23 > fxP2.4_BR3 1",
+            "type": "BaseItem",
+            "sourceNode": "fxP23_STR23",
+            "destNode": "fxP24_BR31",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.2_HPF7 > fxP2.3_STR23",
+            "type": "BaseItem",
+            "sourceNode": "fxP22_HPF7",
+            "destNode": "fxP23_STR23",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.1_LPF7 > fxP2.2_HPF7",
+            "type": "BaseItem",
+            "sourceNode": "fxP21_LPF7",
+            "destNode": "fxP22_HPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.1_LPF5 > fxP1.2_HPF6",
+            "type": "BaseItem",
+            "sourceNode": "fxP11_LPF5",
+            "destNode": "fxP12_HPF6",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.3_STR2 > fxP1.4_BR3",
+            "type": "BaseItem",
+            "sourceNode": "fxP13_STR2",
+            "destNode": "fxP14_BR3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.4_BR3 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP14_BR3",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.4_BR3 1 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP24_BR31",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.5_DEL1 > fx2.6_REV2",
+            "type": "BaseItem",
+            "sourceNode": "fx25_DEL1",
+            "destNode": "fx26_REV2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.6_REV2 > fx2.7_LPF3",
+            "type": "BaseItem",
+            "sourceNode": "fx26_REV2",
+            "destNode": "fx27_LPF3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.7_LPF3 > fx2.8_HPF4",
+            "type": "BaseItem",
+            "sourceNode": "fx27_LPF3",
+            "destNode": "fx28_HPF4",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.1_BR2 > fx2.2_SYT2",
+            "type": "BaseItem",
+            "sourceNode": "fx21_BR2",
+            "destNode": "fx22_SYT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.2_SYT2 > fx2.3_OCT2",
+            "type": "BaseItem",
+            "sourceNode": "fx22_SYT2",
+            "destNode": "fx23_OCT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.5_STR1 > fx1.6_REV1",
+            "type": "BaseItem",
+            "sourceNode": "fx15_STR1",
+            "destNode": "fx16_REV1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.6_REV1 > fx1.7_LPF1",
+            "type": "BaseItem",
+            "sourceNode": "fx16_REV1",
+            "destNode": "fx17_LPF1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.7_LPF1 > fx1.8_HPF2",
+            "type": "BaseItem",
+            "sourceNode": "fx17_LPF1",
+            "destNode": "fx18_HPF2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.3_OCT1 > fx1.4_RIN1",
+            "type": "BaseItem",
+            "sourceNode": "fx13_OCT1",
+            "destNode": "fx14_RIN1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.2_SYT1 > fx1.3_OCT1",
+            "type": "BaseItem",
+            "sourceNode": "fx12_SYT1",
+            "destNode": "fx13_OCT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.1_BR1 > fx1.2_SYT1",
+            "type": "BaseItem",
+            "sourceNode": "fx11_BR1",
+            "destNode": "fx12_SYT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.4_RIN2 > fx2.5_DEL1",
+            "type": "BaseItem",
+            "sourceNode": "fx24_RIN2",
+            "destNode": "fx25_DEL1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 1 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l1",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 4 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l4",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 2 > fxP2.1_LPF7",
+            "type": "BaseItem",
+            "sourceNode": "l2",
+            "destNode": "fxP21_LPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 3 > fxP3.1_LPF8",
+            "type": "BaseItem",
+            "sourceNode": "l3",
+            "destNode": "fxP31_LPF8",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM2_REV > Recorder",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "recorder",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "in > fx1.1_BR1",
+            "type": "BaseItem",
+            "sourceNode": "in",
+            "destNode": "fx11_BR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.4_RIN1 > fx1.5_STR1",
+            "type": "BaseItem",
+            "sourceNode": "fx14_RIN1",
+            "destNode": "fx15_STR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "CLIC > out",
+            "type": "BaseItem",
+            "sourceNode": "clic",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 1",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 2",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l2",
+            "connectionType": 0,
+            "channels": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 3",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l3",
+            "connectionType": 0,
+            "channels": [
+              [
+                2,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                4,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.3_OCT2 > fx2.4_RIN2",
+            "type": "BaseItem",
+            "sourceNode": "fx23_OCT2",
+            "destNode": "fx24_RIN2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.2_HPF6 > fxP1.3_STR2",
+            "type": "BaseItem",
+            "sourceNode": "fxP12_HPF6",
+            "destNode": "fxP13_STR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Melotron > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "melotron",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Melotron",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "melotron",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.8_HPF4 > Mixer",
+            "type": "BaseItem",
+            "sourceNode": "fx28_HPF4",
+            "destNode": "mixer",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 4",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l4",
+            "connectionType": 0,
+            "channels": [
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Drumkit > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "drumkit",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Drumkit",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "drumkit",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "EARS TRACKS > out",
+            "type": "BaseItem",
+            "sourceNode": "earsTRACKS",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      },
+      "Fx2 No Loop": {
+        "hideInEditor": true,
+        "items": [
+          {
+            "niceName": "fxM2_REV > out",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM1_LPF9 > fxM2_REV",
+            "type": "BaseItem",
+            "sourceNode": "fxM1_LPF9",
+            "destNode": "fxM2_REV",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.4_BR3 2 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP34_BR32",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.3_STR2 2 > fxP3.4_BR3 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP33_STR22",
+            "destNode": "fxP34_BR32",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.2_HPF6 2 > fxP3.3_STR2 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP32_HPF62",
+            "destNode": "fxP33_STR22",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.1_LPF8 > fxP3.2_HPF6 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP31_LPF8",
+            "destNode": "fxP32_HPF62",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.3_STR23 > fxP2.4_BR3 1",
+            "type": "BaseItem",
+            "sourceNode": "fxP23_STR23",
+            "destNode": "fxP24_BR31",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.2_HPF7 > fxP2.3_STR23",
+            "type": "BaseItem",
+            "sourceNode": "fxP22_HPF7",
+            "destNode": "fxP23_STR23",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.1_LPF7 > fxP2.2_HPF7",
+            "type": "BaseItem",
+            "sourceNode": "fxP21_LPF7",
+            "destNode": "fxP22_HPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.1_LPF5 > fxP1.2_HPF6",
+            "type": "BaseItem",
+            "sourceNode": "fxP11_LPF5",
+            "destNode": "fxP12_HPF6",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.3_STR2 > fxP1.4_BR3",
+            "type": "BaseItem",
+            "sourceNode": "fxP13_STR2",
+            "destNode": "fxP14_BR3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.4_BR3 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP14_BR3",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.4_BR3 1 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP24_BR31",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.5_DEL1 > fx2.6_REV2",
+            "type": "BaseItem",
+            "sourceNode": "fx25_DEL1",
+            "destNode": "fx26_REV2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.6_REV2 > fx2.7_LPF3",
+            "type": "BaseItem",
+            "sourceNode": "fx26_REV2",
+            "destNode": "fx27_LPF3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.7_LPF3 > fx2.8_HPF4",
+            "type": "BaseItem",
+            "sourceNode": "fx27_LPF3",
+            "destNode": "fx28_HPF4",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.1_BR2 > fx2.2_SYT2",
+            "type": "BaseItem",
+            "sourceNode": "fx21_BR2",
+            "destNode": "fx22_SYT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.2_SYT2 > fx2.3_OCT2",
+            "type": "BaseItem",
+            "sourceNode": "fx22_SYT2",
+            "destNode": "fx23_OCT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.5_STR1 > fx1.6_REV1",
+            "type": "BaseItem",
+            "sourceNode": "fx15_STR1",
+            "destNode": "fx16_REV1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.6_REV1 > fx1.7_LPF1",
+            "type": "BaseItem",
+            "sourceNode": "fx16_REV1",
+            "destNode": "fx17_LPF1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.7_LPF1 > fx1.8_HPF2",
+            "type": "BaseItem",
+            "sourceNode": "fx17_LPF1",
+            "destNode": "fx18_HPF2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.3_OCT1 > fx1.4_RIN1",
+            "type": "BaseItem",
+            "sourceNode": "fx13_OCT1",
+            "destNode": "fx14_RIN1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.2_SYT1 > fx1.3_OCT1",
+            "type": "BaseItem",
+            "sourceNode": "fx12_SYT1",
+            "destNode": "fx13_OCT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.1_BR1 > fx1.2_SYT1",
+            "type": "BaseItem",
+            "sourceNode": "fx11_BR1",
+            "destNode": "fx12_SYT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.4_RIN2 > fx2.5_DEL1",
+            "type": "BaseItem",
+            "sourceNode": "fx24_RIN2",
+            "destNode": "fx25_DEL1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 1 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l1",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 4 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l4",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 2 > fxP2.1_LPF7",
+            "type": "BaseItem",
+            "sourceNode": "l2",
+            "destNode": "fxP21_LPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 3 > fxP3.1_LPF8",
+            "type": "BaseItem",
+            "sourceNode": "l3",
+            "destNode": "fxP31_LPF8",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM2_REV > Recorder",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "recorder",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "in > fx1.1_BR1",
+            "type": "BaseItem",
+            "sourceNode": "in",
+            "destNode": "fx11_BR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.4_RIN1 > fx1.5_STR1",
+            "type": "BaseItem",
+            "sourceNode": "fx14_RIN1",
+            "destNode": "fx15_STR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 1",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 2",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l2",
+            "connectionType": 0,
+            "channels": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 3",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l3",
+            "connectionType": 0,
+            "channels": [
+              [
+                2,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                4,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.3_OCT2 > fx2.4_RIN2",
+            "type": "BaseItem",
+            "sourceNode": "fx23_OCT2",
+            "destNode": "fx24_RIN2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.2_HPF6 > fxP1.3_STR2",
+            "type": "BaseItem",
+            "sourceNode": "fxP12_HPF6",
+            "destNode": "fxP13_STR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Melotron > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "melotron",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Drumkit > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "drumkit",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 4",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l4",
+            "connectionType": 0,
+            "channels": [
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Mixer",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "mixer",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "CLIC > out",
+            "type": "BaseItem",
+            "sourceNode": "clic",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Melotron",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "melotron",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Drumkit",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "drumkit",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.8_HPF4 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fx28_HPF4",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "EARS TRACKS > out",
+            "type": "BaseItem",
+            "sourceNode": "earsTRACKS",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      },
+      "Fx2 Loop": {
+        "hideInEditor": true,
+        "items": [
+          {
+            "niceName": "fxM2_REV > out",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM1_LPF9 > fxM2_REV",
+            "type": "BaseItem",
+            "sourceNode": "fxM1_LPF9",
+            "destNode": "fxM2_REV",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.4_BR3 2 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP34_BR32",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.3_STR2 2 > fxP3.4_BR3 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP33_STR22",
+            "destNode": "fxP34_BR32",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.2_HPF6 2 > fxP3.3_STR2 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP32_HPF62",
+            "destNode": "fxP33_STR22",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.1_LPF8 > fxP3.2_HPF6 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP31_LPF8",
+            "destNode": "fxP32_HPF62",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.3_STR23 > fxP2.4_BR3 1",
+            "type": "BaseItem",
+            "sourceNode": "fxP23_STR23",
+            "destNode": "fxP24_BR31",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.2_HPF7 > fxP2.3_STR23",
+            "type": "BaseItem",
+            "sourceNode": "fxP22_HPF7",
+            "destNode": "fxP23_STR23",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.1_LPF7 > fxP2.2_HPF7",
+            "type": "BaseItem",
+            "sourceNode": "fxP21_LPF7",
+            "destNode": "fxP22_HPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.1_LPF5 > fxP1.2_HPF6",
+            "type": "BaseItem",
+            "sourceNode": "fxP11_LPF5",
+            "destNode": "fxP12_HPF6",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.3_STR2 > fxP1.4_BR3",
+            "type": "BaseItem",
+            "sourceNode": "fxP13_STR2",
+            "destNode": "fxP14_BR3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.4_BR3 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP14_BR3",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.4_BR3 1 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP24_BR31",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.5_DEL1 > fx2.6_REV2",
+            "type": "BaseItem",
+            "sourceNode": "fx25_DEL1",
+            "destNode": "fx26_REV2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.6_REV2 > fx2.7_LPF3",
+            "type": "BaseItem",
+            "sourceNode": "fx26_REV2",
+            "destNode": "fx27_LPF3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.7_LPF3 > fx2.8_HPF4",
+            "type": "BaseItem",
+            "sourceNode": "fx27_LPF3",
+            "destNode": "fx28_HPF4",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.1_BR2 > fx2.2_SYT2",
+            "type": "BaseItem",
+            "sourceNode": "fx21_BR2",
+            "destNode": "fx22_SYT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.2_SYT2 > fx2.3_OCT2",
+            "type": "BaseItem",
+            "sourceNode": "fx22_SYT2",
+            "destNode": "fx23_OCT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.5_STR1 > fx1.6_REV1",
+            "type": "BaseItem",
+            "sourceNode": "fx15_STR1",
+            "destNode": "fx16_REV1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.6_REV1 > fx1.7_LPF1",
+            "type": "BaseItem",
+            "sourceNode": "fx16_REV1",
+            "destNode": "fx17_LPF1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.7_LPF1 > fx1.8_HPF2",
+            "type": "BaseItem",
+            "sourceNode": "fx17_LPF1",
+            "destNode": "fx18_HPF2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.3_OCT1 > fx1.4_RIN1",
+            "type": "BaseItem",
+            "sourceNode": "fx13_OCT1",
+            "destNode": "fx14_RIN1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.2_SYT1 > fx1.3_OCT1",
+            "type": "BaseItem",
+            "sourceNode": "fx12_SYT1",
+            "destNode": "fx13_OCT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.1_BR1 > fx1.2_SYT1",
+            "type": "BaseItem",
+            "sourceNode": "fx11_BR1",
+            "destNode": "fx12_SYT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.4_RIN2 > fx2.5_DEL1",
+            "type": "BaseItem",
+            "sourceNode": "fx24_RIN2",
+            "destNode": "fx25_DEL1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 1 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l1",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 4 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l4",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 2 > fxP2.1_LPF7",
+            "type": "BaseItem",
+            "sourceNode": "l2",
+            "destNode": "fxP21_LPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 3 > fxP3.1_LPF8",
+            "type": "BaseItem",
+            "sourceNode": "l3",
+            "destNode": "fxP31_LPF8",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM2_REV > Recorder",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "recorder",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "in > fx1.1_BR1",
+            "type": "BaseItem",
+            "sourceNode": "in",
+            "destNode": "fx11_BR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.4_RIN1 > fx1.5_STR1",
+            "type": "BaseItem",
+            "sourceNode": "fx14_RIN1",
+            "destNode": "fx15_STR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "CLIC > out",
+            "type": "BaseItem",
+            "sourceNode": "clic",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 1",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 2",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l2",
+            "connectionType": 0,
+            "channels": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 3",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l3",
+            "connectionType": 0,
+            "channels": [
+              [
+                2,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                4,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.3_OCT2 > fx2.4_RIN2",
+            "type": "BaseItem",
+            "sourceNode": "fx23_OCT2",
+            "destNode": "fx24_RIN2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.2_HPF6 > fxP1.3_STR2",
+            "type": "BaseItem",
+            "sourceNode": "fxP12_HPF6",
+            "destNode": "fxP13_STR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Melotron > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "melotron",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 4",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l4",
+            "connectionType": 0,
+            "channels": [
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Drumkit > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "drumkit",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "EARS TRACKS > out",
+            "type": "BaseItem",
+            "sourceNode": "earsTRACKS",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Mixer",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "mixer",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.8_HPF4 > Mixer",
+            "type": "BaseItem",
+            "sourceNode": "fx28_HPF4",
+            "destNode": "mixer",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      },
+      "B_L2_4": {
+        "hideInEditor": true,
+        "items": [
+          {
+            "niceName": "fxM2_REV > out",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM1_LPF9 > fxM2_REV",
+            "type": "BaseItem",
+            "sourceNode": "fxM1_LPF9",
+            "destNode": "fxM2_REV",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.4_BR3 2 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP34_BR32",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.3_STR2 2 > fxP3.4_BR3 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP33_STR22",
+            "destNode": "fxP34_BR32",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.2_HPF6 2 > fxP3.3_STR2 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP32_HPF62",
+            "destNode": "fxP33_STR22",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP3.1_LPF8 > fxP3.2_HPF6 2",
+            "type": "BaseItem",
+            "sourceNode": "fxP31_LPF8",
+            "destNode": "fxP32_HPF62",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.3_STR23 > fxP2.4_BR3 1",
+            "type": "BaseItem",
+            "sourceNode": "fxP23_STR23",
+            "destNode": "fxP24_BR31",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.2_HPF7 > fxP2.3_STR23",
+            "type": "BaseItem",
+            "sourceNode": "fxP22_HPF7",
+            "destNode": "fxP23_STR23",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.1_LPF7 > fxP2.2_HPF7",
+            "type": "BaseItem",
+            "sourceNode": "fxP21_LPF7",
+            "destNode": "fxP22_HPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.1_LPF5 > fxP1.2_HPF6",
+            "type": "BaseItem",
+            "sourceNode": "fxP11_LPF5",
+            "destNode": "fxP12_HPF6",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.3_STR2 > fxP1.4_BR3",
+            "type": "BaseItem",
+            "sourceNode": "fxP13_STR2",
+            "destNode": "fxP14_BR3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.4_BR3 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP14_BR3",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP2.4_BR3 1 > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "fxP24_BR31",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.5_DEL1 > fx2.6_REV2",
+            "type": "BaseItem",
+            "sourceNode": "fx25_DEL1",
+            "destNode": "fx26_REV2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.6_REV2 > fx2.7_LPF3",
+            "type": "BaseItem",
+            "sourceNode": "fx26_REV2",
+            "destNode": "fx27_LPF3",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.7_LPF3 > fx2.8_HPF4",
+            "type": "BaseItem",
+            "sourceNode": "fx27_LPF3",
+            "destNode": "fx28_HPF4",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.1_BR2 > fx2.2_SYT2",
+            "type": "BaseItem",
+            "sourceNode": "fx21_BR2",
+            "destNode": "fx22_SYT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.2_SYT2 > fx2.3_OCT2",
+            "type": "BaseItem",
+            "sourceNode": "fx22_SYT2",
+            "destNode": "fx23_OCT2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.5_STR1 > fx1.6_REV1",
+            "type": "BaseItem",
+            "sourceNode": "fx15_STR1",
+            "destNode": "fx16_REV1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.6_REV1 > fx1.7_LPF1",
+            "type": "BaseItem",
+            "sourceNode": "fx16_REV1",
+            "destNode": "fx17_LPF1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.7_LPF1 > fx1.8_HPF2",
+            "type": "BaseItem",
+            "sourceNode": "fx17_LPF1",
+            "destNode": "fx18_HPF2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.3_OCT1 > fx1.4_RIN1",
+            "type": "BaseItem",
+            "sourceNode": "fx13_OCT1",
+            "destNode": "fx14_RIN1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.2_SYT1 > fx1.3_OCT1",
+            "type": "BaseItem",
+            "sourceNode": "fx12_SYT1",
+            "destNode": "fx13_OCT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.1_BR1 > fx1.2_SYT1",
+            "type": "BaseItem",
+            "sourceNode": "fx11_BR1",
+            "destNode": "fx12_SYT1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.4_RIN2 > fx2.5_DEL1",
+            "type": "BaseItem",
+            "sourceNode": "fx24_RIN2",
+            "destNode": "fx25_DEL1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 1 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l1",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 4 > fxP1.1_LPF5",
+            "type": "BaseItem",
+            "sourceNode": "l4",
+            "destNode": "fxP11_LPF5",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 2 > fxP2.1_LPF7",
+            "type": "BaseItem",
+            "sourceNode": "l2",
+            "destNode": "fxP21_LPF7",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 3 > fxP3.1_LPF8",
+            "type": "BaseItem",
+            "sourceNode": "l3",
+            "destNode": "fxP31_LPF8",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxM2_REV > Recorder",
+            "type": "BaseItem",
+            "sourceNode": "fxM2_REV",
+            "destNode": "recorder",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "in > fx1.1_BR1",
+            "type": "BaseItem",
+            "sourceNode": "in",
+            "destNode": "fx11_BR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.4_RIN1 > fx1.5_STR1",
+            "type": "BaseItem",
+            "sourceNode": "fx14_RIN1",
+            "destNode": "fx15_STR1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "CLIC > out",
+            "type": "BaseItem",
+            "sourceNode": "clic",
+            "destNode": "out",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 1",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l1",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 2",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l2",
+            "connectionType": 0,
+            "channels": [
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > l 3",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "l3",
+            "connectionType": 0,
+            "channels": [
+              [
+                2,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Mixer > fxM1_LPF9",
+            "type": "BaseItem",
+            "sourceNode": "mixer",
+            "destNode": "fxM1_LPF9",
+            "connectionType": 0,
+            "channels": [
+              [
+                4,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.3_OCT2 > fx2.4_RIN2",
+            "type": "BaseItem",
+            "sourceNode": "fx23_OCT2",
+            "destNode": "fx24_RIN2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fxP1.2_HPF6 > fxP1.3_STR2",
+            "type": "BaseItem",
+            "sourceNode": "fxP12_HPF6",
+            "destNode": "fxP13_STR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Melotron > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "melotron",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "Drumkit > fx2.1_BR2",
+            "type": "BaseItem",
+            "sourceNode": "drumkit",
+            "destNode": "fx21_BR2",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Melotron",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "melotron",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx1.8_HPF2 > Drumkit",
+            "type": "BaseItem",
+            "sourceNode": "fx18_HPF2",
+            "destNode": "drumkit",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "fx2.8_HPF4 > Mixer",
+            "type": "BaseItem",
+            "sourceNode": "fx28_HPF4",
+            "destNode": "mixer",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "niceName": "l 2 > l 4",
+            "type": "BaseItem",
+            "sourceNode": "l2",
+            "destNode": "l4",
+            "connectionType": 0,
+            "channels": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "parameters": [
+              {
+                "value": [
+                  159.0,
+                  40.0
+                ],
+                "controlAddress": "/viewUISize"
+              }
+            ],
+            "niceName": "Melotron > MIDI Output",
+            "type": "BaseItem",
+            "sourceNode": "melotron",
+            "destNode": "toKey",
+            "connectionType": 1
+          },
+          {
+            "niceName": "Drumkit > MIDI Output",
+            "type": "BaseItem",
+            "sourceNode": "drumkit",
+            "destNode": "toLP3",
+            "connectionType": 1
+          },
+          {
+            "niceName": "Key > Melotron",
+            "type": "BaseItem",
+            "sourceNode": "key",
+            "destNode": "melotron",
+            "connectionType": 1
+          },
+          {
+            "niceName": "LP3 > Drumkit",
+            "type": "BaseItem",
+            "sourceNode": "lp3",
+            "destNode": "drumkit",
+            "connectionType": 1
+          }
+        ],
+        "viewOffset": [
+          0,
+          0
+        ],
+        "viewZoom": 1.0
+      }
+    }
+  },
+  "transport": {
+    "parameters": [
+      {
+        "value": 80.0,
+        "controlAddress": "/bpm",
+        "customData": {
+          "presettable": true
+        }
+      },
+      {
+        "value": 4,
+        "hexMode": false,
+        "controlAddress": "/beatsPerBar",
+        "hideInRemoteControl": true,
+        "customData": {
+          "presettable": true
+        }
+      },
+      {
+        "value": 4,
+        "hexMode": false,
+        "controlAddress": "/beatUnit",
+        "customData": {
+          "presettable": true
+        }
+      },
+      {
+        "controlAddress": "/currentTime",
+        "hideInRemoteControl": true
+      },
+      {
+        "hexMode": false,
+        "controlAddress": "/currentBar",
+        "hideInRemoteControl": true
+      },
+      {
+        "controlAddress": "/barProgression",
+        "hideInRemoteControl": true
+      },
+      {
+        "controlAddress": "/beatProgression",
+        "hideInRemoteControl": true
+      },
+      {
+        "value": 4,
+        "hexMode": false,
+        "controlAddress": "/firstLoopBeat",
+        "customData": {
+          "presettable": true
+        }
+      },
+      {
+        "controlAddress": "/play",
+        "customData": {
+          "presettable": true
+        }
+      },
+      {
+        "controlAddress": "/stop",
+        "customData": {
+          "presettable": true,
+          "transition": 3
+        }
+      },
+      {
+        "value": true,
+        "controlAddress": "/nodesAutoStop"
+      },
+      {
+        "value": "Bar",
+        "controlAddress": "/quantization",
+        "customData": {
+          "presettable": true
+        }
+      },
+      {
+        "value": "Auto",
+        "controlAddress": "/recQuantizationMode"
+      },
+      {
+        "value": [
+          70.0,
+          190.0
+        ],
+        "controlAddress": "/autoQuantizBPMRange"
+      },
+      {
+        "value": 1,
+        "hexMode": false,
+        "controlAddress": "/manualQuantizCount"
+      },
+      {
+        "value": false,
+        "controlAddress": "/enableAbletonLink"
+      },
+      {
+        "value": true,
+        "controlAddress": "/weakLink"
+      }
+    ]
+  },
+  "mappings": {
+    "hideInRemoteControl": true,
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "presets": {
+    "parameters": [
+      {
+        "controlAddress": "/next",
+        "customData": {
+          "presettable": true
+        }
+      },
+      {
+        "value": "",
+        "ghostValue": "/init/presets/initAllOff",
+        "controlAddress": "/presetOnFileLoad"
+      }
+    ],
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "interfaces": {
+    "hideInRemoteControl": true,
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  }
+}
