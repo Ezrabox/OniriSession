@@ -839,7 +839,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/scenes/iKALI/load",
+                  "value": "/scenes/inKALI1/load",
                   "controlAddress": "/target"
                 },
                 {
@@ -856,8 +856,8 @@
               "niceName": "Item 17",
               "hideInEditor": true,
               "type": "DashboardTriggerItem",
-              "ghostAddress": "/scenes/iKALI/load",
-              "controllable": "/scenes/iKALI/load"
+              "ghostAddress": "/scenes/inKALI1/load",
+              "controllable": "/scenes/inKALI1/load"
             },
             {
               "parameters": [
@@ -876,7 +876,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/scenes/iCLEARALL/load",
+                  "value": "/scenes/inCLEARALL/load",
                   "controlAddress": "/target"
                 },
                 {
@@ -899,8 +899,8 @@
               "niceName": "Item 18",
               "hideInEditor": true,
               "type": "DashboardTriggerItem",
-              "ghostAddress": "/scenes/iCLEARALL/load",
-              "controllable": "/scenes/iCLEARALL/load"
+              "ghostAddress": "/scenes/inCLEARALL/load",
+              "controllable": "/scenes/inCLEARALL/load"
             },
             {
               "parameters": [
@@ -1110,7 +1110,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/scenes/hurley/load",
+                  "value": "/scenes/hINIT/load",
                   "controlAddress": "/target"
                 },
                 {
@@ -1127,8 +1127,8 @@
               "niceName": "Item 25",
               "hideInEditor": true,
               "type": "DashboardTriggerItem",
-              "ghostAddress": "/scenes/hurley/load",
-              "controllable": "/scenes/hurley/load"
+              "ghostAddress": "/scenes/hINIT/load",
+              "controllable": "/scenes/hINIT/load"
             },
             {
               "parameters": [
@@ -1190,7 +1190,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/scenes/dOUH/load",
+                  "value": "/scenes/dOUH1/load",
                   "controlAddress": "/target"
                 },
                 {
@@ -1207,8 +1207,8 @@
               "niceName": "Item 27",
               "hideInEditor": true,
               "type": "DashboardTriggerItem",
-              "ghostAddress": "/scenes/dOUH/load",
-              "controllable": "/scenes/dOUH/load"
+              "ghostAddress": "/scenes/dOUH1/load",
+              "controllable": "/scenes/dOUH1/load"
             },
             {
               "parameters": [
@@ -1551,7 +1551,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/scenes/aKALI/load",
+                  "value": "/scenes/aINIT/load",
                   "controlAddress": "/target"
                 },
                 {
@@ -1568,8 +1568,8 @@
               "niceName": "Item 36",
               "hideInEditor": true,
               "type": "DashboardTriggerItem",
-              "ghostAddress": "/scenes/aKALI/load",
-              "controllable": "/scenes/aKALI/load"
+              "ghostAddress": "/scenes/aINIT/load",
+              "controllable": "/scenes/aINIT/load"
             },
             {
               "parameters": [
@@ -2462,7 +2462,7 @@
                   "type": 0,
                   "width": 376,
                   "height": 301,
-                  "currentContent": "Objects",
+                  "currentContent": "Groups",
                   "tabs": [
                     {
                       "name": "Groups"
@@ -2505,7 +2505,7 @@
                       "shifters": [
                         {
                           "type": 0,
-                          "width": 490,
+                          "width": 421,
                           "height": 602,
                           "currentContent": "Stage 2D View",
                           "tabs": [
@@ -2522,7 +2522,7 @@
                         },
                         {
                           "type": 0,
-                          "width": 228,
+                          "width": 297,
                           "height": 602,
                           "currentContent": "Scenes",
                           "tabs": [
@@ -2722,12 +2722,12 @@
                 "enabled": false
               },
               {
-                "value": 0.002015655860305,
+                "value": 0.0,
                 "controlAddress": "/noteIntensity",
                 "enabled": true
               },
               {
-                "value": -0.00014572647342,
+                "value": -0.0,
                 "controlAddress": "/noteIntensityInv",
                 "enabled": true
               },
@@ -3593,12 +3593,12 @@
                 "enabled": false
               },
               {
-                "value": 0.0,
+                "value": 0.5112464427948,
                 "controlAddress": "/noteIntensity",
                 "enabled": true
               },
               {
-                "value": -0.0,
+                "value": -0.153373956680298,
                 "controlAddress": "/noteIntensityInv",
                 "enabled": true
               },
@@ -6858,7 +6858,7 @@
       }
     ],
     "viewOffset": [
-      -15,
+      -37,
       -275
     ],
     "viewZoom": 1.0,
@@ -7050,7 +7050,7 @@
         {
           "parameters": [
             {
-              "value": 0.60579639673233,
+              "value": 0.909359991550446,
               "minValue": 0,
               "maxValue": 1,
               "default": 0,
@@ -7071,7 +7071,7 @@
         {
           "parameters": [
             {
-              "value": 0.220472440123558,
+              "value": 0.850000023841858,
               "minValue": 0,
               "maxValue": 1,
               "default": 0,
@@ -7113,7 +7113,7 @@
         {
           "parameters": [
             {
-              "value": 0.374803185462952,
+              "value": 0.200000002980232,
               "controlAddress": "/fx22ARP",
               "type": "Float",
               "niceName": "FX 2.2 ARP",
@@ -7158,7 +7158,7 @@
     },
     "spatializer": {
       "viewOffset": [
-        -15,
+        -37,
         -275
       ],
       "viewZoom": 1.0
@@ -9904,7 +9904,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.602208048680172,
+                        "value": 0.348204205532899,
                         "controlMode": 1,
                         "expression": "Math.cos(util.getTime()*.8)*.25+.45",
                         "controlAddress": "/speed"
@@ -14084,7 +14084,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.60579639673233,
+                        "value": 0.909359991550446,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -14144,7 +14144,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.220472440123558,
+                        "value": 0.850000023841858,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/melotronVolume/melotronVolume",
@@ -14266,7 +14266,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.374803185462952,
+                        "value": 0.200000002980232,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/fx22ARP/fx22ARP",
@@ -15150,339 +15150,6 @@
             "masterContre": {
               "effects": {
                 "contreMult": [],
-                "contreAdd": {
-                  "/weight": 0
-                }
-              }
-            },
-            "masterGeneral": []
-          }
-        }
-      },
-      {
-        "parameters": [
-          {
-            "value": 3.0,
-            "controlAddress": "/loadTime"
-          }
-        ],
-        "niceName": "I CLEAR ALL",
-        "containers": {
-          "loadingCurve": {
-            "parameters": [
-              {
-                "value": 1.0,
-                "controlAddress": "/length"
-              },
-              {
-                "value": [
-                  0.0,
-                  1.0
-                ],
-                "controlAddress": "/viewValueRange"
-              },
-              {
-                "value": [
-                  0.0,
-                  1.0
-                ],
-                "controlAddress": "/range",
-                "enabled": true
-              },
-              {
-                "value": "",
-                "controlAddress": "/rangeRemapMode"
-              }
-            ],
-            "items": [
-              {
-                "parameters": [
-                  {
-                    "value": "Bezier",
-                    "controlAddress": "/easingType"
-                  }
-                ],
-                "niceName": "Key",
-                "containers": {
-                  "easing": {
-                    "parameters": [
-                      {
-                        "value": [
-                          0.300000011920929,
-                          0.0
-                        ],
-                        "controlAddress": "/anchor1"
-                      },
-                      {
-                        "value": [
-                          -0.300000011920929,
-                          0.0
-                        ],
-                        "controlAddress": "/anchor2"
-                      }
-                    ]
-                  }
-                },
-                "type": "Key"
-              },
-              {
-                "parameters": [
-                  {
-                    "value": 1.0,
-                    "controlAddress": "/position"
-                  },
-                  {
-                    "value": 1.0,
-                    "controlAddress": "/value"
-                  },
-                  {
-                    "value": "Bezier",
-                    "controlAddress": "/easingType"
-                  }
-                ],
-                "niceName": "Key 1",
-                "containers": {
-                  "easing": {
-                  }
-                },
-                "type": "Key"
-              }
-            ],
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "sequences": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "effects": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "actionsOnLoad": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "actionsOnExit": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          }
-        },
-        "type": "Scene",
-        "sceneData": {
-          "objects": {
-            "a1": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "a2": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "a3": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "a4": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "a5": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "a6": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "a7": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "tV": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "tJ": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "cP": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "cA": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "jA": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "jP": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            },
-            "contreV": {
-              "components": {
-                "dimmer": []
-              },
-              "effects": []
-            },
-            "contreJ": {
-              "components": {
-                "dimmer": {
-                  "/value": 0
-                }
-              },
-              "effects": []
-            }
-          },
-          "groups": {
-            "tables": {
-              "effects": {
-                "tableLumireDouce": {
-                  "/weight": 0
-                }
-              }
-            },
-            "cercle": {
-              "effects": {
-                "scintillement": {
-                  "/weight": 0
-                },
-                "vagueHoraire": {
-                  "/weight": 0
-                },
-                "vagueAntihoraire": {
-                  "/weight": 0
-                },
-                "vagueMultiply": {
-                  "/weight": 0
-                },
-                "flash_Step": {
-                  "/weight": 0
-                },
-                "flash_wave1": {
-                  "/weight": 0
-                },
-                "flash_wave2": {
-                  "/weight": 0
-                }
-              }
-            },
-            "decoupesPublic": {
-              "effects": {
-                "dcoupe50": {
-                  "/weight": 0
-                },
-                "dcoupe70": {
-                  "/weight": 0
-                },
-                "dcoupe80": {
-                  "/weight": 0
-                },
-                "dcoupe100": {
-                  "/weight": 0
-                }
-              }
-            },
-            "decoupesArtiste": {
-              "effects": {
-                "dcoupe50": {
-                  "/weight": 0
-                },
-                "dcoupe70": {
-                  "/weight": 0
-                },
-                "dcoupe80": {
-                  "/weight": 0
-                },
-                "dcoupe100": {
-                  "/weight": 0
-                }
-              }
-            },
-            "contres": {
-              "effects": []
-            }
-          },
-          "globalEffects": {
-            "masterTable": [],
-            "masterCercle": [],
-            "masterDecoupes": [],
-            "masterContre": {
-              "effects": {
-                "contreMult": {
-                  "/weight": 0
-                },
                 "contreAdd": {
                   "/weight": 0
                 }
@@ -16760,7 +16427,7 @@
             "controlAddress": "/loadTime"
           }
         ],
-        "niceName": "I KALI",
+        "niceName": "IN KALI 1",
         "containers": {
           "loadingCurve": {
             "parameters": [
@@ -16877,7 +16544,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.60579639673233,
+                        "value": 0.909359991550446,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -17263,6 +16930,339 @@
             "masterCercle": [],
             "masterDecoupesPublic": [],
             "masterDecoupesArtiste": [],
+            "masterContre": {
+              "effects": {
+                "contreMult": {
+                  "/weight": 0
+                },
+                "contreAdd": {
+                  "/weight": 0
+                }
+              }
+            },
+            "masterGeneral": []
+          }
+        }
+      },
+      {
+        "parameters": [
+          {
+            "value": 3.0,
+            "controlAddress": "/loadTime"
+          }
+        ],
+        "niceName": "IN CLEAR ALL",
+        "containers": {
+          "loadingCurve": {
+            "parameters": [
+              {
+                "value": 1.0,
+                "controlAddress": "/length"
+              },
+              {
+                "value": [
+                  0.0,
+                  1.0
+                ],
+                "controlAddress": "/viewValueRange"
+              },
+              {
+                "value": [
+                  0.0,
+                  1.0
+                ],
+                "controlAddress": "/range",
+                "enabled": true
+              },
+              {
+                "value": "",
+                "controlAddress": "/rangeRemapMode"
+              }
+            ],
+            "items": [
+              {
+                "parameters": [
+                  {
+                    "value": "Bezier",
+                    "controlAddress": "/easingType"
+                  }
+                ],
+                "niceName": "Key",
+                "containers": {
+                  "easing": {
+                    "parameters": [
+                      {
+                        "value": [
+                          0.300000011920929,
+                          0.0
+                        ],
+                        "controlAddress": "/anchor1"
+                      },
+                      {
+                        "value": [
+                          -0.300000011920929,
+                          0.0
+                        ],
+                        "controlAddress": "/anchor2"
+                      }
+                    ]
+                  }
+                },
+                "type": "Key"
+              },
+              {
+                "parameters": [
+                  {
+                    "value": 1.0,
+                    "controlAddress": "/position"
+                  },
+                  {
+                    "value": 1.0,
+                    "controlAddress": "/value"
+                  },
+                  {
+                    "value": "Bezier",
+                    "controlAddress": "/easingType"
+                  }
+                ],
+                "niceName": "Key 1",
+                "containers": {
+                  "easing": {
+                  }
+                },
+                "type": "Key"
+              }
+            ],
+            "viewOffset": [
+              0,
+              0
+            ],
+            "viewZoom": 1.0
+          },
+          "sequences": {
+            "viewOffset": [
+              0,
+              0
+            ],
+            "viewZoom": 1.0
+          },
+          "effects": {
+            "viewOffset": [
+              0,
+              0
+            ],
+            "viewZoom": 1.0
+          },
+          "actionsOnLoad": {
+            "viewOffset": [
+              0,
+              0
+            ],
+            "viewZoom": 1.0
+          },
+          "actionsOnExit": {
+            "viewOffset": [
+              0,
+              0
+            ],
+            "viewZoom": 1.0
+          }
+        },
+        "type": "Scene",
+        "sceneData": {
+          "objects": {
+            "a1": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "a2": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "a3": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "a4": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "a5": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "a6": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "a7": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "tV": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "tJ": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "cP": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "cA": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "jA": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "jP": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            },
+            "contreV": {
+              "components": {
+                "dimmer": []
+              },
+              "effects": []
+            },
+            "contreJ": {
+              "components": {
+                "dimmer": {
+                  "/value": 0
+                }
+              },
+              "effects": []
+            }
+          },
+          "groups": {
+            "tables": {
+              "effects": {
+                "tableLumireDouce": {
+                  "/weight": 0
+                }
+              }
+            },
+            "cercle": {
+              "effects": {
+                "scintillement": {
+                  "/weight": 0
+                },
+                "vagueHoraire": {
+                  "/weight": 0
+                },
+                "vagueAntihoraire": {
+                  "/weight": 0
+                },
+                "vagueMultiply": {
+                  "/weight": 0
+                },
+                "flash_Step": {
+                  "/weight": 0
+                },
+                "flash_wave1": {
+                  "/weight": 0
+                },
+                "flash_wave2": {
+                  "/weight": 0
+                }
+              }
+            },
+            "decoupesPublic": {
+              "effects": {
+                "dcoupe50": {
+                  "/weight": 0
+                },
+                "dcoupe70": {
+                  "/weight": 0
+                },
+                "dcoupe80": {
+                  "/weight": 0
+                },
+                "dcoupe100": {
+                  "/weight": 0
+                }
+              }
+            },
+            "decoupesArtiste": {
+              "effects": {
+                "dcoupe50": {
+                  "/weight": 0
+                },
+                "dcoupe70": {
+                  "/weight": 0
+                },
+                "dcoupe80": {
+                  "/weight": 0
+                },
+                "dcoupe100": {
+                  "/weight": 0
+                }
+              }
+            },
+            "contres": {
+              "effects": []
+            }
+          },
+          "globalEffects": {
+            "masterTable": [],
+            "masterCercle": [],
+            "masterDecoupes": [],
             "masterContre": {
               "effects": {
                 "contreMult": {
@@ -18303,7 +18303,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.60579639673233,
+                        "value": 0.909359991550446,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -23904,7 +23904,7 @@
             "controlAddress": "/loadTime"
           }
         ],
-        "niceName": "HURLEY",
+        "niceName": "H INIT",
         "containers": {
           "loadingCurve": {
             "parameters": [
@@ -24867,7 +24867,7 @@
             "controlAddress": "/loadTime"
           }
         ],
-        "niceName": "D OUH",
+        "niceName": "D OUH 1",
         "containers": {
           "loadingCurve": {
             "parameters": [
@@ -32735,7 +32735,7 @@
             "controlAddress": "/loadTime"
           }
         ],
-        "niceName": "A KALI",
+        "niceName": "A INIT",
         "containers": {
           "loadingCurve": {
             "parameters": [
@@ -42556,7 +42556,7 @@
             "controlAddress": "/loadTime"
           }
         ],
-        "niceName": "O END",
+        "niceName": "O FADE OUT",
         "containers": {
           "loadingCurve": {
             "parameters": [
@@ -46340,7 +46340,7 @@
             "controlAddress": "/loadTime"
           }
         ],
-        "niceName": "SALUT",
+        "niceName": "I SALUT",
         "containers": {
           "loadingCurve": {
             "parameters": [
@@ -49369,6 +49369,7 @@
                   }
                 ],
                 "niceName": "Table Mult",
+                "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
                     "parameters": [
@@ -49428,6 +49429,7 @@
                   }
                 ],
                 "niceName": "Table Add",
+                "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
                     "parameters": [
