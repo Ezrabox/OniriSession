@@ -2431,25 +2431,25 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 1496,
+      "width": 1387,
       "height": 901,
       "direction": 2,
       "shifters": [
         {
           "type": 1,
-          "width": 1496,
+          "width": 1387,
           "height": 901,
           "direction": 1,
           "shifters": [
             {
               "type": 1,
-              "width": 376,
+              "width": 322,
               "height": 901,
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 376,
+                  "width": 322,
                   "height": 244,
                   "currentContent": "Interfaces",
                   "tabs": [
@@ -2460,7 +2460,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 376,
+                  "width": 322,
                   "height": 301,
                   "currentContent": "Groups",
                   "tabs": [
@@ -2474,7 +2474,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 376,
+                  "width": 322,
                   "height": 344,
                   "currentContent": "Global Effects",
                   "tabs": [
@@ -2487,27 +2487,27 @@
             },
             {
               "type": 1,
-              "width": 1114,
+              "width": 1059,
               "height": 901,
               "direction": 1,
               "shifters": [
                 {
                   "type": 1,
-                  "width": 724,
+                  "width": 622,
                   "height": 901,
                   "direction": 2,
                   "shifters": [
                     {
                       "type": 1,
-                      "width": 724,
+                      "width": 622,
                       "height": 602,
                       "direction": 1,
                       "shifters": [
                         {
                           "type": 0,
-                          "width": 421,
+                          "width": 399,
                           "height": 602,
-                          "currentContent": "Stage 2D View",
+                          "currentContent": "Objects Grid View",
                           "tabs": [
                             {
                               "name": "Stage 2D View"
@@ -2522,7 +2522,7 @@
                         },
                         {
                           "type": 0,
-                          "width": 297,
+                          "width": 217,
                           "height": 602,
                           "currentContent": "Scenes",
                           "tabs": [
@@ -2535,7 +2535,7 @@
                     },
                     {
                       "type": 0,
-                      "width": 724,
+                      "width": 622,
                       "height": 293,
                       "currentContent": "Sequence Editor",
                       "tabs": [
@@ -2548,13 +2548,13 @@
                 },
                 {
                   "type": 1,
-                  "width": 384,
+                  "width": 431,
                   "height": 901,
                   "direction": 2,
                   "shifters": [
                     {
                       "type": 0,
-                      "width": 384,
+                      "width": 431,
                       "height": 660,
                       "currentContent": "Inspector",
                       "tabs": [
@@ -2565,7 +2565,7 @@
                     },
                     {
                       "type": 0,
-                      "width": 384,
+                      "width": 431,
                       "height": 235,
                       "currentContent": "Logger",
                       "tabs": [
@@ -3593,12 +3593,12 @@
                 "enabled": false
               },
               {
-                "value": 0.5112464427948,
+                "value": 0.0,
                 "controlAddress": "/noteIntensity",
                 "enabled": true
               },
               {
-                "value": -0.153373956680298,
+                "value": -0.0,
                 "controlAddress": "/noteIntensityInv",
                 "enabled": true
               },
@@ -4679,7 +4679,7 @@
             "hideInRemoteControl": true
           },
           {
-            "value": "icons/bulb.png",
+            "value": "icons/cygne.png",
             "relative": true,
             "controlAddress": "/customIcon",
             "hideInRemoteControl": true
@@ -4826,7 +4826,7 @@
                     "controlAddress": "/tag"
                   },
                   {
-                    "value": 0.0,
+                    "value": 0.014999993145466,
                     "controlAddress": "/value"
                   }
                 ],
@@ -4965,7 +4965,7 @@
             "hideInRemoteControl": true
           },
           {
-            "value": "icons/bulb.png",
+            "value": "icons/cygne.png",
             "relative": true,
             "controlAddress": "/customIcon",
             "hideInRemoteControl": true
@@ -5412,7 +5412,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": 0.807992279529572,
+                        "value": 0.0,
                         "controlAddress": "/position"
                       },
                       {
@@ -5688,7 +5688,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": 0.807992279529572,
+                        "value": 0.0,
                         "controlAddress": "/position"
                       },
                       {
@@ -5711,7 +5711,6 @@
                         "controlAddress": "/enabled"
                       }
                     ],
-                    "editorIsCollapsed": true,
                     "items": [
                       {
                         "parameters": [
@@ -5738,7 +5737,7 @@
                             "controlAddress": "/position"
                           },
                           {
-                            "value": 1.0,
+                            "value": 0.939999997615814,
                             "controlAddress": "/value"
                           },
                           {
@@ -5965,7 +5964,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": 0.807992279529572,
+                        "value": 0.0,
                         "controlAddress": "/position"
                       },
                       {
@@ -5988,7 +5987,6 @@
                         "controlAddress": "/enabled"
                       }
                     ],
-                    "editorIsCollapsed": true,
                     "items": [
                       {
                         "parameters": [
@@ -6015,7 +6013,7 @@
                             "controlAddress": "/position"
                           },
                           {
-                            "value": 1.0,
+                            "value": 0.966666638851166,
                             "controlAddress": "/value"
                           },
                           {
@@ -6242,7 +6240,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": 0.807992279529572,
+                        "value": 0.0,
                         "controlAddress": "/position"
                       },
                       {
@@ -6343,7 +6341,7 @@
             "controlAddress": "/icon"
           },
           {
-            "value": "icons/bulb.png",
+            "value": "icons/phare.png",
             "relative": true,
             "controlAddress": "/customIcon"
           },
@@ -6510,7 +6508,6 @@
                         "controlAddress": "/enabled"
                       }
                     ],
-                    "editorIsCollapsed": true,
                     "items": [
                       {
                         "parameters": [
@@ -6553,7 +6550,7 @@
                             "controlAddress": "/position"
                           },
                           {
-                            "value": 1.0,
+                            "value": 0.959999978542328,
                             "controlAddress": "/value"
                           },
                           {
@@ -6605,7 +6602,7 @@
             "controlAddress": "/icon"
           },
           {
-            "value": "icons/bulb.png",
+            "value": "icons/phare.png",
             "relative": true,
             "controlAddress": "/customIcon"
           },
@@ -6722,7 +6719,8 @@
                 "controlAddress": "/rmsLoop4",
                 "enabled": false
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "components": {
             "items": [
@@ -6772,7 +6770,6 @@
                         "controlAddress": "/enabled"
                       }
                     ],
-                    "editorIsCollapsed": true,
                     "items": [
                       {
                         "parameters": [
@@ -6811,7 +6808,7 @@
                             "controlAddress": "/position"
                           },
                           {
-                            "value": 1.0,
+                            "value": 0.980000019073486,
                             "controlAddress": "/value"
                           },
                           {
@@ -6858,8 +6855,8 @@
       }
     ],
     "viewOffset": [
-      -37,
-      -275
+      654,
+      136
     ],
     "viewZoom": 1.0,
     "customParameters": {
@@ -7050,7 +7047,7 @@
         {
           "parameters": [
             {
-              "value": 0.909359991550446,
+              "value": 0.696052312850952,
               "minValue": 0,
               "maxValue": 1,
               "default": 0,
@@ -7071,7 +7068,7 @@
         {
           "parameters": [
             {
-              "value": 0.850000023841858,
+              "value": 0.0,
               "minValue": 0,
               "maxValue": 1,
               "default": 0,
@@ -7158,8 +7155,8 @@
     },
     "spatializer": {
       "viewOffset": [
-        -37,
-        -275
+        654,
+        136
       ],
       "viewZoom": 1.0
     }
@@ -9904,7 +9901,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.348204205532899,
+                        "value": 0.583792343793655,
                         "controlMode": 1,
                         "expression": "Math.cos(util.getTime()*.8)*.25+.45",
                         "controlAddress": "/speed"
@@ -11329,7 +11326,7 @@
                     "controlAddress": "/saveMode"
                   },
                   {
-                    "value": 1.0,
+                    "value": 0.0,
                     "controlAddress": "/weight"
                   },
                   {
@@ -11568,7 +11565,7 @@
                     "controlAddress": "/saveMode"
                   },
                   {
-                    "value": 1.0,
+                    "value": 0.0,
                     "controlAddress": "/weight"
                   },
                   {
@@ -14084,7 +14081,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.909359991550446,
+                        "value": 0.696052312850952,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -14144,7 +14141,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.850000023841858,
+                        "value": 0.0,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/melotronVolume/melotronVolume",
@@ -16544,7 +16541,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.909359991550446,
+                        "value": 0.696052312850952,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -18303,7 +18300,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.909359991550446,
+                        "value": 0.696052312850952,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -30784,7 +30781,6 @@
                   }
                 ],
                 "niceName": "Multiply",
-                "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
                     "paramLinks": {
