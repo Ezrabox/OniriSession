@@ -1668,7 +1668,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/scenes/sBASSREC/load",
+                  "value": "/scenes/sBASS/load",
                   "controlAddress": "/target"
                 },
                 {
@@ -1691,8 +1691,8 @@
               "niceName": "Item 39",
               "hideInEditor": true,
               "type": "DashboardTriggerItem",
-              "ghostAddress": "/scenes/sBASSREC/load",
-              "controllable": "/scenes/sBASSREC/load"
+              "ghostAddress": "/scenes/sBASS/load",
+              "controllable": "/scenes/sBASS/load"
             },
             {
               "parameters": [
@@ -2158,8 +2158,8 @@
             }
           ],
           "viewOffset": [
-            221,
-            10
+            139,
+            8
           ],
           "viewZoom": 0.568750023841858
         },
@@ -2507,7 +2507,7 @@
                           "type": 0,
                           "width": 399,
                           "height": 602,
-                          "currentContent": "Objects Grid View",
+                          "currentContent": "Dashboard",
                           "tabs": [
                             {
                               "name": "Stage 2D View"
@@ -2722,12 +2722,12 @@
                 "enabled": false
               },
               {
-                "value": 0.0,
+                "value": 0.364731907844543,
                 "controlAddress": "/noteIntensity",
                 "enabled": true
               },
               {
-                "value": -0.0,
+                "value": -0.25416362285614,
                 "controlAddress": "/noteIntensityInv",
                 "enabled": true
               },
@@ -4826,7 +4826,7 @@
                     "controlAddress": "/tag"
                   },
                   {
-                    "value": 0.014999993145466,
+                    "value": 0.016000002622604,
                     "controlAddress": "/value"
                   }
                 ],
@@ -7047,7 +7047,7 @@
         {
           "parameters": [
             {
-              "value": 0.696052312850952,
+              "value": 0.788362503051758,
               "minValue": 0,
               "maxValue": 1,
               "default": 0,
@@ -7068,7 +7068,7 @@
         {
           "parameters": [
             {
-              "value": 0.0,
+              "value": 0.716535449028015,
               "minValue": 0,
               "maxValue": 1,
               "default": 0,
@@ -7110,7 +7110,7 @@
         {
           "parameters": [
             {
-              "value": 0.200000002980232,
+              "value": 0.464566946029663,
               "controlAddress": "/fx22ARP",
               "type": "Float",
               "niceName": "FX 2.2 ARP",
@@ -7166,6 +7166,10 @@
     "items": [
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": false,
             "controlAddress": "/logOutgoing"
@@ -7572,6 +7576,12 @@
             "viewZoom": 1.0
           },
           "effects": {
+            "parameters": [
+              {
+                "value": 1.0,
+                "controlAddress": "/weight"
+              }
+            ],
             "items": [
               {
                 "parameters": [
@@ -9901,7 +9911,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.583792343793655,
+                        "value": 0.444149671399503,
                         "controlMode": 1,
                         "expression": "Math.cos(util.getTime()*.8)*.25+.45",
                         "controlAddress": "/speed"
@@ -14081,7 +14091,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.696052312850952,
+                        "value": 0.788362503051758,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -14141,7 +14151,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.0,
+                        "value": 0.716535449028015,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/melotronVolume/melotronVolume",
@@ -14263,7 +14273,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.200000002980232,
+                        "value": 0.464566946029663,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/fx22ARP/fx22ARP",
@@ -16541,7 +16551,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.696052312850952,
+                        "value": 0.788362503051758,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -18300,7 +18310,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.696052312850952,
+                        "value": 0.788362503051758,
                         "controlMode": 2,
                         "reference": {
                           "value": "/objects/customParameters/masterVolume/masterVolume",
@@ -30875,6 +30885,7 @@
                   }
                 ],
                 "niceName": "Découpe 80",
+                "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
                     "parameters": [
@@ -33835,7 +33846,7 @@
             "controlAddress": "/loadTime"
           }
         ],
-        "niceName": "S BASS REC",
+        "niceName": "S BASS",
         "containers": {
           "loadingCurve": {
             "parameters": [
@@ -49485,6 +49496,12 @@
         "niceName": "Master Cercle",
         "containers": {
           "effects": {
+            "parameters": [
+              {
+                "value": 1.0,
+                "controlAddress": "/weight"
+              }
+            ],
             "items": [
               {
                 "parameters": [

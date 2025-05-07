@@ -1,5 +1,5 @@
 {
-  "version": "1.27.1",
+  "version": "1.29.0",
   "type": "session",
   "createdWith": "Open Stage Control",
   "content": {
@@ -170,7 +170,8 @@
                   "min": 0,
                   "max": 1
                 },
-                "logScale": false
+                "logScale": false,
+                "interaction": false
               },
               {
                 "type": "input",
@@ -302,7 +303,8 @@
                   "min": 0,
                   "max": 1
                 },
-                "logScale": true
+                "logScale": true,
+                "interaction": false
               },
               {
                 "type": "button",
@@ -450,7 +452,8 @@
                 "bypass": false,
                 "onCreate": "",
                 "onValue": "",
-                "onTouch": ""
+                "onTouch": "",
+                "touchZone": "all"
               },
               {
                 "type": "button",
@@ -528,7 +531,8 @@
             "lock": false,
             "onCreate": "",
             "borderRadius": "auto",
-            "tabsPosition": "top"
+            "tabsPosition": "top",
+            "onTouch": ""
           },
           {
             "type": "panel",
@@ -826,7 +830,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -889,7 +894,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -1074,7 +1080,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -1117,7 +1124,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -1180,7 +1188,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -1365,7 +1374,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -1408,7 +1418,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -1471,7 +1482,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -1656,7 +1668,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -1699,7 +1712,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -1762,7 +1776,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -1947,7 +1962,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -1990,7 +2006,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -2053,7 +2070,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -2238,7 +2256,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -2281,7 +2300,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -2344,7 +2364,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -2529,7 +2550,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -2572,7 +2594,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   }
                 ],
                 "tabs": [],
@@ -2604,7 +2627,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -2856,7 +2880,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -2919,7 +2944,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -3104,7 +3130,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -3147,7 +3174,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -3210,7 +3238,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -3395,7 +3424,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -3438,7 +3468,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -3501,7 +3532,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -3686,7 +3718,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -3729,7 +3762,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -3792,7 +3826,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -3977,7 +4012,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -4020,7 +4056,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -4083,7 +4120,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -4268,7 +4306,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -4311,7 +4350,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -4374,7 +4414,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -4559,7 +4600,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -4602,7 +4644,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   }
                 ],
                 "tabs": [],
@@ -4634,7 +4677,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -4886,7 +4930,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -4949,7 +4994,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -5134,7 +5180,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -5177,7 +5224,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -5240,7 +5288,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -5425,7 +5474,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -5468,7 +5518,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -5531,7 +5582,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -5716,7 +5768,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -5759,7 +5812,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -5822,7 +5876,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -6007,7 +6062,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -6050,7 +6106,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -6113,7 +6170,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -6298,7 +6356,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -6341,7 +6400,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -6404,7 +6464,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -6589,7 +6650,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -6632,7 +6694,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   }
                 ],
                 "tabs": [],
@@ -6664,7 +6727,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -6916,7 +6980,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -6979,7 +7044,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -7164,7 +7230,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -7207,7 +7274,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -7270,7 +7338,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -7455,7 +7524,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -7498,7 +7568,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -7561,7 +7632,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -7746,7 +7818,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -7789,7 +7862,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -7852,7 +7926,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -8037,7 +8112,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -8080,7 +8156,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -8143,7 +8220,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -8328,7 +8406,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -8371,7 +8450,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "panel",
@@ -8434,7 +8514,8 @@
                         "onCreate": "",
                         "onTouch": "",
                         "borderRadius": "auto",
-                        "colorKnob": "auto"
+                        "colorKnob": "auto",
+                        "touchZone": "all"
                       },
                       {
                         "type": "panel",
@@ -8619,7 +8700,8 @@
                         "lock": false,
                         "onCreate": "",
                         "borderRadius": "auto",
-                        "tabsPosition": "top"
+                        "tabsPosition": "top",
+                        "onTouch": ""
                       }
                     ],
                     "bypass": false,
@@ -8662,7 +8744,8 @@
                     "lock": false,
                     "onCreate": "",
                     "borderRadius": "auto",
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   }
                 ],
                 "tabs": [],
@@ -8694,11 +8777,13 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               }
             ],
             "tabs": [],
-            "tabsPosition": "top"
+            "tabsPosition": "top",
+            "onTouch": ""
           },
           {
             "type": "panel",
@@ -8877,7 +8962,8 @@
                 "sensitivity": 1,
                 "steps": "",
                 "origin": "auto",
-                "onTouch": ""
+                "onTouch": "",
+                "touchZone": "all"
               },
               {
                 "type": "panel",
@@ -9003,21 +9089,22 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "INIT": "Init All off",
-                          "MIC": "mic",
-                          "OCT": "oct",
-                          "REV": "rev",
-                          "BR ": "br",
-                          "STR": "str",
-                          "KICK": "kick",
-                          "SN": "sn"
+                          "INIT": "INIT ALL OFF",
+                          "MIC": "FX MIC",
+                          "OCT": "FX OCT",
+                          "REV": "FX REV",
+                          "BR ": "FX BR",
+                          "STR": "FX STR",
+                          "KICK": "FX KICK",
+                          "SN": "FX SN"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9096,18 +9183,19 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          " In init": "IN INIT",
-                          "* In KALI": "IN KALI 1",
+                          "In init >": "IN INIT",
+                          "In KALI #": "IN KALI 1",
                           "In K 2": "IN KALI 2",
                           "In edit": "IN EDIT",
-                          "* In ^trash ": "IN CLEAR ALL"
+                          "In ^trash # >": "IN CLEAR ALL"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9186,24 +9274,25 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "m init": "M INIT",
-                          "m ears": "M EARS",
-                          "m todo *": "M TODO",
+                          "m init >": "M INIT",
+                          "m ears >": "M EARS",
+                          "m todo #": "M TODO",
                           "m mmm": "M MMM",
                           "m ouh": "M OUH",
                           "m ouh h": "M OUH HIGH",
                           "m bass": "M BASS",
                           "m beat": "M BEAT",
-                          "m ouh 2 * ": "M OUH 2",
+                          "m ouh 2 #": "M OUH 2",
                           "m l2 fad": "M L2 FADE",
-                          "m ^trash": "M CLEAR ALL"
+                          "m ^trash # >": "M CLEAR ALL"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9282,26 +9371,27 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "p init": "P INIT",
-                          "p ears": "P EARS",
+                          "p init >": "P INIT",
+                          "p ears >": "P EARS",
                           "4.1": "P OU 1",
                           "4.2": "P OU 2",
                           "4.3": "P OU 3",
                           "4.4": "P OU 4",
                           "4.5": "P OU 5",
-                          "p arp": "P ARP",
-                          "* p bass": "P BASS",
+                          "p arp #": "P ARP",
+                          "p bass #": "P BASS",
                           "p ouh": "P OUH",
                           "p final": "P OUH REC FINAL",
                           "p fad": "P ALL FADE",
-                          "p ^trash": "P CLEAR ALL"
+                          "p ^trash >": "P CLEAR ALL"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9380,25 +9470,26 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "* h init": "H INIT",
-                          "* h piano": "H PIANO",
-                          "* acc br": "D ACC BR",
-                          "* d ouh 1": "D OUH 1",
+                          "h init # >": "H INIT",
+                          "h piano": "H PIANO",
+                          "d acc br #": "D ACC BR",
+                          "d ouh 1 #": "D OUH 1",
                           "d ouh 2": "D OUH 2",
                           "d tkt": "D TKT",
                           "d bass": "D BASS",
                           "acid": "D ACID",
                           "acid h": "D ACID HIGH",
-                          "* vx acd": "D VX ACID",
-                          "* d end": "D END",
-                          "d ^trash": "D CLEAR ALL"
+                          "vx acd #": "D VX ACID",
+                          "d end #": "D END",
+                          "d ^trash >": "D CLEAR ALL"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9477,14 +9568,15 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "b init": "B INIT",
-                          "b ears": "B EARS",
-                          "* b br": "B BR",
-                          "* b acc": "B ACC",
-                          "* b arp": "B ARP",
-                          "* b break": "B BREAK",
-                          "* b end": "B END",
-                          "* b stop": "B STOP",
+                          "b init >": "B INIT",
+                          "b ears >": "B EARS",
+                          "b br #": "B BR",
+                          "b acc #": "B ACC",
+                          "b arp #": "B ARP",
+                          "b break #": "B BREAK",
+                          "b end #": "B END",
+                          "b stop BOB #": "B STOP",
+                          "BOB": "BOB",
                           "b ^trash": "B CLEAR ALL"
                         },
                         "mode": "tap",
@@ -9492,7 +9584,8 @@
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9571,15 +9664,15 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "BOB": "BOB",
-                          "a KALI": "A KALI"
+                          "a KALI": "A INIT"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9658,27 +9751,28 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "s init": "S INIT",
-                          "s ears": "S EARS",
-                          "* s tron br": "S TRON BR",
-                          "s bass": "S BASS",
-                          "s ouh": "S OUH",
+                          "s init >": "S INIT",
+                          "s ears >": "S EARS",
+                          "s tron br #": "S TRON BR",
+                          "s bass #": "S BASS",
+                          "s ouh #": "S OUH",
                           "s br": "S BR",
                           "s kick": "S KICK",
-                          "* s sn": "S SN",
+                          "s sn #": "S SN",
                           "s rou": "S ROU",
                           "s rou break": "S ROU BREAK",
-                          "* s beat": "S BEAT",
-                          "* s break": "S BREAK",
-                          "* s end": "S END",
-                          "s ^trash": "S CLEAR ALL"
+                          "s beat #": "S BEAT",
+                          "s break #": "S BREAK",
+                          "s end #": "S END",
+                          "s ^trash # >": "S CLEAR ALL"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9757,24 +9851,27 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "* o sif": "O SIFFLE",
+                          "o init >": "O INIT",
+                          "o sif #": "O SIFFLE",
                           "o sif r": "O SIFFLE REC",
-                          "* o kali": "O KALI",
+                          "o kali #": "O KALI",
                           "o kali 2": "O KALI 2",
-                          "* o bass": "O BASS",
+                          "o bass #": "O BASS",
                           "o corx": "O CORX",
                           "o corx R": "O CORX BREAK",
-                          "o beat": "O BEAT",
+                          "o beat #": "O BEAT",
                           "o beat x": "O BEAT END",
-                          "o bass end": "O BASS END",
-                          "* o fade": "O FADE OUT"
+                          "o bass end >": "O BASS END",
+                          "o fade #": "O FADE OUT",
+                          "o ^trash >": "O CLEAR ALL"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -9853,128 +9950,33 @@
                         "onValue": "",
                         "colorTextOn": "rgba(255,255,255,1)",
                         "values": {
-                          "I ini": "I INIT",
-                          "I pia": "I PIANO",
+                          "I ini >": "I INIT",
+                          "I pia #": "I PIANO",
                           "I bas": "I BASS",
                           "I ouh": "I OUH",
-                          "I ins": "I INSECT",
+                          "I ins >": "I INSECT",
                           "I dow fxp1": "I DOWN FXP1",
                           "I sn sp": "I SN SPACE",
                           "I kic": "I KICK",
                           "I sn": "I SN",
-                          "I arp": "I ARP",
+                          "I arp # >": "I ARP",
                           "I ouh down": "I OUH DOWN",
                           "I break": "I BREAK",
-                          "I Pia back": "I BREAK 2",
+                          "I Pia back #": "I BREAK 2",
                           "I beat back": "I BREAK 3",
                           "I bass back": "I BASSE BACK",
                           "I beat mute": "I BEAT MUTE",
-                          "i end": "I END",
-                          "salut": "SALUT"
+                          "I end #": "I END",
+                          "I salut #": "I SALUT",
+                          "I ^trash": "I CLEAR ALL"
                         },
                         "mode": "tap",
                         "wrap": false
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
-                  },
-                  {
-                    "type": "tab",
-                    "lock": false,
-                    "id": "Road",
-                    "visible": true,
-                    "interaction": true,
-                    "comments": "",
-                    "colorText": "auto",
-                    "colorWidget": "auto",
-                    "colorFill": "auto",
-                    "borderRadius": "auto",
-                    "padding": 1,
-                    "html": "",
-                    "css": "",
-                    "colorBg": "auto",
-                    "layout": "default",
-                    "justify": "start",
-                    "gridTemplate": "",
-                    "contain": true,
-                    "scroll": false,
-                    "innerPadding": false,
-                    "label": "auto",
-                    "variables": "@{parent.variables}",
-                    "traversing": false,
-                    "value": "",
-                    "default": "",
-                    "linkId": "",
-                    "address": "auto",
-                    "preArgs": "",
-                    "typeTags": "",
-                    "decimals": 2,
-                    "target": "",
-                    "ignoreDefaults": false,
-                    "bypass": false,
-                    "onCreate": "",
-                    "onValue": "",
-                    "widgets": [
-                      {
-                        "type": "switch",
-                        "top": 0,
-                        "left": 0,
-                        "lock": false,
-                        "id": "/presets/loadPreset",
-                        "visible": true,
-                        "interaction": true,
-                        "comments": "",
-                        "width": 260,
-                        "height": 600,
-                        "expand": false,
-                        "colorText": "auto",
-                        "colorWidget": "red",
-                        "colorStroke": "#e9d2d2",
-                        "colorFill": "#ea1f1f",
-                        "alphaStroke": "auto",
-                        "alphaFillOff": "auto",
-                        "alphaFillOn": 1,
-                        "lineWidth": 1,
-                        "borderRadius": 1,
-                        "padding": 2,
-                        "html": "",
-                        "css": "font-size: 100%;",
-                        "layout": "grid",
-                        "gridTemplate": 2,
-                        "value": "OSC{/presets/currentPreset}",
-                        "default": "",
-                        "linkId": "",
-                        "address": "@{this.id}",
-                        "preArgs": "",
-                        "typeTags": "",
-                        "decimals": 2,
-                        "target": "",
-                        "ignoreDefaults": false,
-                        "bypass": false,
-                        "onCreate": "",
-                        "onValue": "",
-                        "colorTextOn": "rgba(255,255,255,1)",
-                        "values": {
-                          " ": "",
-                          "  ": "",
-                          "   ": "",
-                          "    ": "",
-                          "     ": "",
-                          "      ": "",
-                          "       ": "",
-                          "        ": "",
-                          "         ": "",
-                          "          ": "",
-                          "            ": "",
-                          "             ": ""
-                        },
-                        "mode": "tap",
-                        "wrap": false
-                      }
-                    ],
-                    "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   },
                   {
                     "type": "tab",
@@ -10067,14 +10069,17 @@
                       }
                     ],
                     "tabs": [],
-                    "tabsPosition": "top"
+                    "tabsPosition": "top",
+                    "onTouch": ""
                   }
                 ],
-                "tabsPosition": "left"
+                "tabsPosition": "left",
+                "onTouch": ""
               }
             ],
             "tabs": [],
-            "tabsPosition": "top"
+            "tabsPosition": "top",
+            "onTouch": ""
           },
           {
             "type": "panel",
@@ -10260,7 +10265,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -10399,7 +10405,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -10538,7 +10545,8 @@
                   }
                 ],
                 "tabs": [],
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -10677,7 +10685,8 @@
                   }
                 ],
                 "tabs": [],
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -10816,7 +10825,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -10955,7 +10965,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -11094,7 +11105,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -11233,7 +11245,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -11372,7 +11385,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -11511,7 +11525,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -11650,7 +11665,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -11789,7 +11805,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -11928,7 +11945,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -12067,7 +12085,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -12206,7 +12225,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -12345,7 +12365,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -12484,7 +12505,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -12623,7 +12645,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -12762,7 +12785,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -12901,7 +12925,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -13040,7 +13065,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -13179,7 +13205,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -13318,7 +13345,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -13457,7 +13485,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -13596,7 +13625,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -13735,7 +13765,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -13874,7 +13905,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -14013,7 +14045,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -14152,7 +14185,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -14291,7 +14325,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -14430,7 +14465,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -14569,7 +14605,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "button",
@@ -14922,7 +14959,8 @@
                 "onValue": ""
               }
             ],
-            "tabs": []
+            "tabs": [],
+            "onTouch": ""
           },
           {
             "type": "panel",
@@ -15079,7 +15117,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -15218,7 +15257,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -15357,7 +15397,8 @@
                   }
                 ],
                 "tabs": [],
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -15496,7 +15537,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -15635,7 +15677,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -15774,7 +15817,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -15913,7 +15957,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -16052,7 +16097,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -16191,7 +16237,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -16330,7 +16377,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -16469,7 +16517,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -16608,7 +16657,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -16747,7 +16797,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -16886,7 +16937,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17025,7 +17077,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17164,7 +17217,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17303,7 +17357,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17442,7 +17497,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17581,7 +17637,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17720,7 +17777,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17859,7 +17917,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -17998,7 +18057,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -18137,7 +18197,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -18276,7 +18337,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -18415,7 +18477,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -18554,7 +18617,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -18693,7 +18757,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -18832,7 +18897,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -18971,7 +19037,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -19110,7 +19177,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -19249,7 +19317,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "panel",
@@ -19388,7 +19457,8 @@
                 "justify": "start",
                 "gridTemplate": "",
                 "contain": true,
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               },
               {
                 "type": "button",
@@ -19770,7 +19840,8 @@
             "lock": false,
             "onCreate": "",
             "borderRadius": "auto",
-            "tabsPosition": "top"
+            "tabsPosition": "top",
+            "onTouch": ""
           },
           {
             "type": "panel",
@@ -20259,7 +20330,8 @@
                 "lock": false,
                 "onCreate": "",
                 "borderRadius": "auto",
-                "tabsPosition": "top"
+                "tabsPosition": "top",
+                "onTouch": ""
               }
             ],
             "tabs": [],
@@ -20291,7 +20363,8 @@
             "lock": false,
             "onCreate": "",
             "borderRadius": "auto",
-            "tabsPosition": "top"
+            "tabsPosition": "top",
+            "onTouch": ""
           },
           {
             "type": "panel",
@@ -20394,7 +20467,8 @@
                 "sensitivity": 1,
                 "steps": "",
                 "origin": "auto",
-                "onTouch": ""
+                "onTouch": "",
+                "touchZone": "all"
               },
               {
                 "type": "textarea",
@@ -20989,7 +21063,8 @@
                 "onValue": ""
               }
             ],
-            "tabs": []
+            "tabs": [],
+            "onTouch": ""
           },
           {
             "type": "switch",
@@ -21065,7 +21140,8 @@
         "lock": false,
         "onCreate": "",
         "borderRadius": "auto",
-        "tabsPosition": "top"
+        "tabsPosition": "top",
+        "onTouch": ""
       },
       {
         "type": "tab",
@@ -21167,14 +21243,14 @@
             "onValue": "",
             "colorTextOn": "rgba(255,255,255,1)",
             "values": {
-              "INIT": "Init All off",
-              "MIC": "mic",
-              "OCT": "oct",
-              "REV": "rev",
-              "BR ": "br",
-              "STR": "str",
-              "KICK": "kick",
-              "SN": "sn",
+              "INIT": "INIT ALL OFF",
+              "MIC": "FX MIC",
+              "OCT": "FX OCT",
+              "REV": "FX REV",
+              "BR ": "FX BR",
+              "STR": "FX STR",
+              "KICK": "FX KICK",
+              "SN": "FX SN",
               "* Z FULL": "MISE FULL",
               "* Z BLK": "MISE BLACK",
               "* MFT": "MISE MFT",
@@ -21494,7 +21570,8 @@
         "lock": false,
         "onCreate": "",
         "borderRadius": "auto",
-        "tabsPosition": "top"
+        "tabsPosition": "top",
+        "onTouch": ""
       }
     ],
     "id": "root",
@@ -21506,7 +21583,7 @@
     "preArgs": "",
     "target": "",
     "bypass": false,
-    "variables": "{\n    \"colors\": {\n      \"idle\": \"#222222\",\n      \"Playing\": \"#00FF00\",\n      \"Recording\": \"#FF0000\",\n      \"willPlay\": \"#004400\",\n      \"willRecord\": \"#440000\"\n    }",
+    "variables": "@{parent.variables}",
     "traversing": false,
     "scroll": true,
     "decimals": 2,
@@ -21535,6 +21612,7 @@
     "onCreate": "",
     "borderRadius": "auto",
     "tabsPosition": "top",
-    "onPreload": ""
+    "onPreload": "",
+    "onTouch": ""
   }
 }
